@@ -53,3 +53,24 @@ TagManager:
   - name: NavMesh
     uniqueID: 585012041
     locked: 0
+  - name: Robes
+    uniqueID: 2555313541
+    locked: 0
+  - name: Pants
+    uniqueID: 2801852615
+    locked: 0
+  - name: Shirt
+    uniqueID: 1210456617
+    locked: 0
+  - name: Skin
+    uniqueID: 3375887481
+    locked: 0
+  - name: Eyes
+    uniqueID: 7592791
+    locked: 0
+  - name: Hair
+    uniqueID: 2302357605
+    locked: 0
+  - name: Scarf
+    uniqueID: 927205405
+    locked: 0
