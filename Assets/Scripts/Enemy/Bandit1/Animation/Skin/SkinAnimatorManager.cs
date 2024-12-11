@@ -8,11 +8,11 @@ public class SkinAnimatorManager : AnimationManager
 
     private void Start()
     {
-        prefixes = new List<string> {"Blonde"};
+        prefixes = new List<string> {"White"};
     }
 
     public override string ConcatenatePrefixes(string movementType) // PART STYLE + BODY PART + TYPE OF MOVEMENT 
     {
-        return prefixes[0] + "Hair" + movementType;
+        return prefixes[0] + "Skin" + movementType;
     }
 }

@@ -184,8 +184,8 @@ TextureImporter:
       name: GreyShrit_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 648
+        x: 128
+        y: 675
         width: 32
         height: 27
       alignment: 0
@@ -205,7 +205,7 @@ TextureImporter:
       name: GreyShrit_5
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 648
         width: 32
         height: 27
@@ -226,7 +226,7 @@ TextureImporter:
       name: GreyShrit_6
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 648
         width: 32
         height: 27
@@ -247,7 +247,7 @@ TextureImporter:
       name: GreyShrit_7
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 648
         width: 32
         height: 27
@@ -268,7 +268,7 @@ TextureImporter:
       name: GreyShrit_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 648
         width: 32
         height: 27
@@ -289,8 +289,8 @@ TextureImporter:
       name: GreyShrit_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 621
+        x: 128
+        y: 648
         width: 32
         height: 27
       alignment: 0
@@ -310,7 +310,7 @@ TextureImporter:
       name: GreyShrit_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 621
         width: 32
         height: 27
@@ -331,7 +331,7 @@ TextureImporter:
       name: GreyShrit_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 621
         width: 32
         height: 27
@@ -352,7 +352,7 @@ TextureImporter:
       name: GreyShrit_12
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 621
         width: 32
         height: 27
@@ -373,8 +373,8 @@ TextureImporter:
       name: GreyShrit_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 594
+        x: 96
+        y: 621
         width: 32
         height: 27
       alignment: 0
@@ -394,8 +394,8 @@ TextureImporter:
       name: GreyShrit_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 594
+        x: 128
+        y: 621
         width: 32
         height: 27
       alignment: 0
@@ -415,7 +415,7 @@ TextureImporter:
       name: GreyShrit_15
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 594
         width: 32
         height: 27
@@ -436,7 +436,7 @@ TextureImporter:
       name: GreyShrit_16
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 594
         width: 32
         height: 27
@@ -457,7 +457,7 @@ TextureImporter:
       name: GreyShrit_17
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 594
         width: 32
         height: 27
@@ -478,8 +478,8 @@ TextureImporter:
       name: GreyShrit_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 567
+        x: 96
+        y: 594
         width: 32
         height: 27
       alignment: 0
@@ -499,8 +499,8 @@ TextureImporter:
       name: GreyShrit_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 540
+        x: 128
+        y: 594
         width: 32
         height: 27
       alignment: 0
@@ -521,7 +521,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 189
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -542,7 +542,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 189
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -563,7 +563,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 189
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -583,8 +583,8 @@ TextureImporter:
       name: GreyShrit_23
       rect:
         serializedVersion: 2
-        x: 0
-        y: 162
+        x: 96
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -604,8 +604,8 @@ TextureImporter:
       name: GreyShrit_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 135
+        x: 128
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -625,8 +625,8 @@ TextureImporter:
       name: GreyShrit_25
       rect:
         serializedVersion: 2
-        x: 32
-        y: 135
+        x: 0
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -646,8 +646,8 @@ TextureImporter:
       name: GreyShrit_26
       rect:
         serializedVersion: 2
-        x: 64
-        y: 135
+        x: 32
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -667,8 +667,8 @@ TextureImporter:
       name: GreyShrit_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 108
+        x: 64
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -688,8 +688,8 @@ TextureImporter:
       name: GreyShrit_28
       rect:
         serializedVersion: 2
-        x: 0
-        y: 81
+        x: 96
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -709,8 +709,8 @@ TextureImporter:
       name: GreyShrit_29
       rect:
         serializedVersion: 2
-        x: 32
-        y: 81
+        x: 128
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -730,8 +730,8 @@ TextureImporter:
       name: GreyShrit_30
       rect:
         serializedVersion: 2
-        x: 64
-        y: 81
+        x: 0
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -751,8 +751,8 @@ TextureImporter:
       name: GreyShrit_31
       rect:
         serializedVersion: 2
-        x: 96
-        y: 81
+        x: 32
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -772,8 +772,8 @@ TextureImporter:
       name: GreyShrit_32
       rect:
         serializedVersion: 2
-        x: 128
-        y: 81
+        x: 64
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -793,8 +793,8 @@ TextureImporter:
       name: GreyShrit_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
+        x: 96
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -814,8 +814,8 @@ TextureImporter:
       name: GreyShrit_34
       rect:
         serializedVersion: 2
-        x: 32
-        y: 54
+        x: 128
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -835,8 +835,8 @@ TextureImporter:
       name: GreyShrit_35
       rect:
         serializedVersion: 2
-        x: 64
-        y: 54
+        x: 0
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -856,8 +856,8 @@ TextureImporter:
       name: GreyShrit_36
       rect:
         serializedVersion: 2
-        x: 96
-        y: 54
+        x: 32
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -877,8 +877,8 @@ TextureImporter:
       name: GreyShrit_37
       rect:
         serializedVersion: 2
-        x: 128
-        y: 54
+        x: 64
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -898,8 +898,8 @@ TextureImporter:
       name: GreyShrit_38
       rect:
         serializedVersion: 2
-        x: 0
-        y: 27
+        x: 96
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -919,8 +919,8 @@ TextureImporter:
       name: GreyShrit_39
       rect:
         serializedVersion: 2
-        x: 32
-        y: 27
+        x: 128
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -940,8 +940,8 @@ TextureImporter:
       name: GreyShrit_40
       rect:
         serializedVersion: 2
-        x: 64
-        y: 27
+        x: 0
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -961,8 +961,8 @@ TextureImporter:
       name: GreyShrit_41
       rect:
         serializedVersion: 2
-        x: 96
-        y: 27
+        x: 32
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -982,8 +982,8 @@ TextureImporter:
       name: GreyShrit_42
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 64
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1003,8 +1003,8 @@ TextureImporter:
       name: GreyShrit_43
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 96
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1024,8 +1024,8 @@ TextureImporter:
       name: GreyShrit_44
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 128
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1045,8 +1045,8 @@ TextureImporter:
       name: GreyShrit_45
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 0
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1058,6 +1058,1770 @@ TextureImporter:
       bones: []
       spriteID: d5a89383577313884a027601e86a4f5c
       internalID: 1093410454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366973db1e9425f139f216ace84732b2
+      internalID: -1290166121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b76aa23f22637a1ba9ee466e519545
+      internalID: 1950317571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9222e3d47c0b90b5580902b42ea4a47d
+      internalID: -68507263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84519db6c7f104d79aa0da234cb4537b
+      internalID: 2055015885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b75e4102d33296fae858330b883fe2
+      internalID: -1422968120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 405
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d230f111f7ca41618bc3ae7d2a77acc
+      internalID: -1887477461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 405
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a15c5df6931b6d91aa8b0354cb0cf
+      internalID: -482768798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 405
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb55bd21c486ead9845a34814131b62
+      internalID: -1455264759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 405
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894ac51aefcf27f458578b91a847c26b
+      internalID: 960236421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be7012f309fd5a2097b190fc650cc52
+      internalID: -830455192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 378
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082085459ec78019fa67a5ceda9e8f9a
+      internalID: -1224688481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 378
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012b02d396e6d1feba699c0de98b21eb
+      internalID: 1460882536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 378
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d2a9682e570f28997d01e1dca4de53
+      internalID: -1876920060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 378
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d06b426d16551369bbe32bf23d67c4a
+      internalID: 292777069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cc3bd9494cfd455939540b256d47f2
+      internalID: -86286654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 351
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0c0ac2d9a51f68da8a4ba1fab2bf39
+      internalID: 490667870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 351
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269679b0261f55b6a3331a0817cff04
+      internalID: 59444955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 351
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6953d482766900f9aeb8391f832fd2
+      internalID: 1492346642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 351
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abe39ccc3a7f8f7088bc93b27b251f0
+      internalID: 1581871435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7088c55e8c2d857852ade0511d238a
+      internalID: 92868641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655e894b0c683ca72866ee5a351ba6b9
+      internalID: 185012967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d354ba8ee6b283e8d96943851245a169
+      internalID: -452883009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2796a2422c5560b6180ac7793155383d
+      internalID: -1221844922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 324
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7d594adfe246df8b1ee6f8b461c864
+      internalID: 1163415870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3acac4b4f73609e992ef8640456ee4
+      internalID: -310548792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 297
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b56c776537de6cefb5a14577a99b790
+      internalID: 1499300183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_72
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 297
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec1ead8415a3e71a8091ff623a829ab
+      internalID: -1052530941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 297
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc096274a3657ed4c88e37eaa642e908
+      internalID: 486763583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 297
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c7d43fb82bc64828d1a65b1b2c6a4c
+      internalID: 1019938270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9f19c5400e88dbab87fe85c5a8eaaa
+      internalID: 2121192313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 270
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb083297f57c15387a55850aa17da7e7
+      internalID: -276287099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 270
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216893b1511df56149f4cc4701486acd
+      internalID: 1668425259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 270
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080887b038f2743e09c61e5f830ff8d1
+      internalID: 2140665459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 270
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f0c32da791dd80d9176a6f1c15ac49
+      internalID: -1629833849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69448b6a2ff8e464fb035a3835d37254
+      internalID: 833059124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d5fd123477cd31f8d9659b392e7e5c
+      internalID: -938284942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c3f0e12a6399eeb927823e757e1291
+      internalID: 1348817001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d4bae792840a95ca75eb9f35c03bfe
+      internalID: 1039108814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c575bc314ade0959483eb9ee2d54ce
+      internalID: -1921223836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6a18d957441b06a95a7f7e8a9c7e52
+      internalID: -550395691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d81c5b925e9bf51b44c3507376d8e1
+      internalID: 914118523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3200d97a4592d973a9af360de3b82a5a
+      internalID: 1737964215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb117ae22858743d91c20bf87e584a4
+      internalID: 902515214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3186688296c99ced486ac2337458f9b3
+      internalID: -432508579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b240226e4af2bfb4c6b4e310d4c32
+      internalID: 1220376273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc35161e49ecf6729e4b342e064a712
+      internalID: -1695083606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e053e9c32321f0290a1a1fed2c8120
+      internalID: -351065255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0ea6435b7b77aa9953c26503306e29
+      internalID: 348621262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed29e1fd76e436ef938781dcd5ead37
+      internalID: -189865152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03014ebcf3002aa8f87f2d76c6a0283c
+      internalID: -155018256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7ec082a79b532bcb84da24fabffa19
+      internalID: 955426677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fd1ded8e35031ca9902f9e885ee670
+      internalID: 55958871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a16175a8caaf41699cd3d6cd32f0d1
+      internalID: 876371551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c606a2aff5d157b3e941188b111d4fcd
+      internalID: 606104980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3e47577f79876e28e49e657516fec2
+      internalID: 1229559645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4f65ef0c303bcda89d030c24df2879
+      internalID: -905246838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b7b3ed00ec2da999aaa6cdb34328c5
+      internalID: -1421837406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f784695610eac55492b97cdc8667119
+      internalID: 1167797834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78013cedbf89fee4af670ffec55e05d
+      internalID: 1173056318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fdd811bb082eb3979f00075c908700f
+      internalID: -274464242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324278788aabb15ebad6032b1981ffe7
+      internalID: 1436964857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d87e0cf11a118f382d979cd2064cf4
+      internalID: -1165638424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181e5b3b1b7b9d6c3ac8731c0a95e9da
+      internalID: -485188541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c1b31b2d1545abfa08b77c9b297789
+      internalID: -1477813289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d96c1f3289409e4930162fbf5a7a6d
+      internalID: 298404964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_111
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc4c43103b044edf88c5c4211936afc
+      internalID: 1325832320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3879cfeb7e61f104b9b209a49adf004b
+      internalID: 1541946038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242a1eef2fba06568c8b0d9bf7c55e2
+      internalID: 1325179979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815f1511ad3c1a214b41903d1fb73e35
+      internalID: 1881556359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adb48dc9d80721ddbc061a4d7ac2620
+      internalID: -574426939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e13eae962ab630d9136e9febd33cde
+      internalID: -632153502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c432f133dd501479465a980569f7d7
+      internalID: 1854913596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7443b38763298b71a89cf95bff403d43
+      internalID: -1289550056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e279be5978e81164698cd8d0461c5d1a
+      internalID: 1002245867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906e486faeb1e2ad991941c1fe389ec
+      internalID: -742299036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65b9c5ddbd727a7f900873f777c81cf
+      internalID: -193442680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44762e460f1649d85a2fddeb639b4c48
+      internalID: -2006354837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da63b63f1d25eddd599d5cc82fcc96d2
+      internalID: -1649099973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca94d17844bca78afa0a7da0b93fab96
+      internalID: -48874800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9278784061c49da7abf4abdcdfb52237
+      internalID: 1977809540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7424ab41e86dabf1bd2774e13f7be58
+      internalID: 1872217134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24360fee43ac7f75b119322470f5fcf
+      internalID: -190350152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9840c822545b078b78dac22566189010
+      internalID: 1853453421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreyShrit_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28563e3462a240e74b4f7794d8e48340
+      internalID: 2046414677
       vertices: []
       indices: 
       edges: []
@@ -1076,8 +2840,38 @@ TextureImporter:
       GreyShrit_0: -303618577
       GreyShrit_1: -1970641759
       GreyShrit_10: -58417670
+      GreyShrit_100: 1229559645
+      GreyShrit_101: -905246838
+      GreyShrit_102: -1421837406
+      GreyShrit_103: 1167797834
+      GreyShrit_104: 1173056318
+      GreyShrit_105: -274464242
+      GreyShrit_106: 1436964857
+      GreyShrit_107: -1165638424
+      GreyShrit_108: -485188541
+      GreyShrit_109: -1477813289
       GreyShrit_11: 308246895
+      GreyShrit_110: 298404964
+      GreyShrit_111: 1325832320
+      GreyShrit_112: 1541946038
+      GreyShrit_113: 1325179979
+      GreyShrit_114: 1881556359
+      GreyShrit_115: -574426939
+      GreyShrit_116: -632153502
+      GreyShrit_117: 1854913596
+      GreyShrit_118: -1289550056
+      GreyShrit_119: 1002245867
       GreyShrit_12: -456283222
+      GreyShrit_120: -742299036
+      GreyShrit_121: -193442680
+      GreyShrit_122: -2006354837
+      GreyShrit_123: -1649099973
+      GreyShrit_124: -48874800
+      GreyShrit_125: 1977809540
+      GreyShrit_126: 1872217134
+      GreyShrit_127: -190350152
+      GreyShrit_128: 1853453421
+      GreyShrit_129: 2046414677
       GreyShrit_13: 1645565707
       GreyShrit_14: -1554744774
       GreyShrit_15: 1410334040
@@ -1114,11 +2908,65 @@ TextureImporter:
       GreyShrit_43: -1674029821
       GreyShrit_44: -1649979624
       GreyShrit_45: 1093410454
+      GreyShrit_46: -1290166121
+      GreyShrit_47: 1950317571
+      GreyShrit_48: -68507263
+      GreyShrit_49: 2055015885
       GreyShrit_5: 1652700650
+      GreyShrit_50: -1422968120
+      GreyShrit_51: -1887477461
+      GreyShrit_52: -482768798
+      GreyShrit_53: -1455264759
+      GreyShrit_54: 960236421
+      GreyShrit_55: -830455192
+      GreyShrit_56: -1224688481
+      GreyShrit_57: 1460882536
+      GreyShrit_58: -1876920060
+      GreyShrit_59: 292777069
       GreyShrit_6: 2053123085
+      GreyShrit_60: -86286654
+      GreyShrit_61: 490667870
+      GreyShrit_62: 59444955
+      GreyShrit_63: 1492346642
+      GreyShrit_64: 1581871435
+      GreyShrit_65: 92868641
+      GreyShrit_66: 185012967
+      GreyShrit_67: -452883009
+      GreyShrit_68: -1221844922
+      GreyShrit_69: 1163415870
       GreyShrit_7: 282691790
+      GreyShrit_70: -310548792
+      GreyShrit_71: 1499300183
+      GreyShrit_72: -1052530941
+      GreyShrit_73: 486763583
+      GreyShrit_74: 1019938270
+      GreyShrit_75: 2121192313
+      GreyShrit_76: -276287099
+      GreyShrit_77: 1668425259
+      GreyShrit_78: 2140665459
+      GreyShrit_79: -1629833849
       GreyShrit_8: -1004493427
+      GreyShrit_80: 833059124
+      GreyShrit_81: -938284942
+      GreyShrit_82: 1348817001
+      GreyShrit_83: 1039108814
+      GreyShrit_84: -1921223836
+      GreyShrit_85: -550395691
+      GreyShrit_86: 914118523
+      GreyShrit_87: 1737964215
+      GreyShrit_88: 902515214
+      GreyShrit_89: -432508579
       GreyShrit_9: 1244655361
+      GreyShrit_90: 1220376273
+      GreyShrit_91: -1695083606
+      GreyShrit_92: -351065255
+      GreyShrit_93: 348621262
+      GreyShrit_94: -189865152
+      GreyShrit_95: -155018256
+      GreyShrit_96: 955426677
+      GreyShrit_97: 55958871
+      GreyShrit_98: 876371551
+      GreyShrit_99: 606104980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -184,8 +184,8 @@ TextureImporter:
       name: BluePants_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 648
+        x: 128
+        y: 675
         width: 32
         height: 27
       alignment: 0
@@ -205,7 +205,7 @@ TextureImporter:
       name: BluePants_5
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 648
         width: 32
         height: 27
@@ -226,7 +226,7 @@ TextureImporter:
       name: BluePants_6
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 648
         width: 32
         height: 27
@@ -247,7 +247,7 @@ TextureImporter:
       name: BluePants_7
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 648
         width: 32
         height: 27
@@ -268,7 +268,7 @@ TextureImporter:
       name: BluePants_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 648
         width: 32
         height: 27
@@ -289,8 +289,8 @@ TextureImporter:
       name: BluePants_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 621
+        x: 128
+        y: 648
         width: 32
         height: 27
       alignment: 0
@@ -310,7 +310,7 @@ TextureImporter:
       name: BluePants_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 621
         width: 32
         height: 27
@@ -331,7 +331,7 @@ TextureImporter:
       name: BluePants_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 621
         width: 32
         height: 27
@@ -352,7 +352,7 @@ TextureImporter:
       name: BluePants_12
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 621
         width: 32
         height: 27
@@ -373,8 +373,8 @@ TextureImporter:
       name: BluePants_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 594
+        x: 96
+        y: 621
         width: 32
         height: 27
       alignment: 0
@@ -394,8 +394,8 @@ TextureImporter:
       name: BluePants_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 594
+        x: 128
+        y: 621
         width: 32
         height: 27
       alignment: 0
@@ -415,7 +415,7 @@ TextureImporter:
       name: BluePants_15
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 594
         width: 32
         height: 27
@@ -436,7 +436,7 @@ TextureImporter:
       name: BluePants_16
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 594
         width: 32
         height: 27
@@ -457,7 +457,7 @@ TextureImporter:
       name: BluePants_17
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 594
         width: 32
         height: 27
@@ -478,8 +478,8 @@ TextureImporter:
       name: BluePants_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 567
+        x: 96
+        y: 594
         width: 32
         height: 27
       alignment: 0
@@ -499,8 +499,8 @@ TextureImporter:
       name: BluePants_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 540
+        x: 128
+        y: 594
         width: 32
         height: 27
       alignment: 0
@@ -521,7 +521,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 513
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -541,8 +541,8 @@ TextureImporter:
       name: BluePants_21
       rect:
         serializedVersion: 2
-        x: 96
-        y: 513
+        x: 32
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -562,8 +562,8 @@ TextureImporter:
       name: BluePants_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 486
+        x: 64
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -583,8 +583,8 @@ TextureImporter:
       name: BluePants_23
       rect:
         serializedVersion: 2
-        x: 64
-        y: 459
+        x: 96
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -604,8 +604,8 @@ TextureImporter:
       name: BluePants_24
       rect:
         serializedVersion: 2
-        x: 96
-        y: 459
+        x: 128
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -626,7 +626,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 432
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -646,8 +646,8 @@ TextureImporter:
       name: BluePants_26
       rect:
         serializedVersion: 2
-        x: 0
-        y: 405
+        x: 32
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -667,8 +667,8 @@ TextureImporter:
       name: BluePants_27
       rect:
         serializedVersion: 2
-        x: 32
-        y: 405
+        x: 64
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -688,8 +688,8 @@ TextureImporter:
       name: BluePants_28
       rect:
         serializedVersion: 2
-        x: 64
-        y: 405
+        x: 96
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -710,7 +710,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 405
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -731,7 +731,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 378
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -752,7 +752,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 378
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -773,7 +773,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 378
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -793,8 +793,8 @@ TextureImporter:
       name: BluePants_33
       rect:
         serializedVersion: 2
-        x: 128
-        y: 378
+        x: 96
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -814,8 +814,8 @@ TextureImporter:
       name: BluePants_34
       rect:
         serializedVersion: 2
-        x: 0
-        y: 351
+        x: 128
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -835,8 +835,8 @@ TextureImporter:
       name: BluePants_35
       rect:
         serializedVersion: 2
-        x: 32
-        y: 351
+        x: 0
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -856,8 +856,8 @@ TextureImporter:
       name: BluePants_36
       rect:
         serializedVersion: 2
-        x: 64
-        y: 351
+        x: 32
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -877,8 +877,8 @@ TextureImporter:
       name: BluePants_37
       rect:
         serializedVersion: 2
-        x: 96
-        y: 351
+        x: 64
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -898,8 +898,8 @@ TextureImporter:
       name: BluePants_38
       rect:
         serializedVersion: 2
-        x: 0
-        y: 324
+        x: 96
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -919,8 +919,8 @@ TextureImporter:
       name: BluePants_39
       rect:
         serializedVersion: 2
-        x: 0
-        y: 297
+        x: 128
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -940,8 +940,8 @@ TextureImporter:
       name: BluePants_40
       rect:
         serializedVersion: 2
-        x: 32
-        y: 297
+        x: 0
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -961,8 +961,8 @@ TextureImporter:
       name: BluePants_41
       rect:
         serializedVersion: 2
-        x: 64
-        y: 297
+        x: 32
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -982,8 +982,8 @@ TextureImporter:
       name: BluePants_42
       rect:
         serializedVersion: 2
-        x: 96
-        y: 297
+        x: 64
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1003,8 +1003,8 @@ TextureImporter:
       name: BluePants_43
       rect:
         serializedVersion: 2
-        x: 128
-        y: 297
+        x: 96
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1024,8 +1024,8 @@ TextureImporter:
       name: BluePants_44
       rect:
         serializedVersion: 2
-        x: 0
-        y: 270
+        x: 128
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1045,8 +1045,8 @@ TextureImporter:
       name: BluePants_45
       rect:
         serializedVersion: 2
-        x: 32
-        y: 270
+        x: 0
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1066,8 +1066,8 @@ TextureImporter:
       name: BluePants_46
       rect:
         serializedVersion: 2
-        x: 64
-        y: 270
+        x: 32
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1087,8 +1087,8 @@ TextureImporter:
       name: BluePants_47
       rect:
         serializedVersion: 2
-        x: 96
-        y: 270
+        x: 64
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1108,8 +1108,8 @@ TextureImporter:
       name: BluePants_48
       rect:
         serializedVersion: 2
-        x: 128
-        y: 270
+        x: 96
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1129,8 +1129,8 @@ TextureImporter:
       name: BluePants_49
       rect:
         serializedVersion: 2
-        x: 0
-        y: 243
+        x: 128
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1150,8 +1150,8 @@ TextureImporter:
       name: BluePants_50
       rect:
         serializedVersion: 2
-        x: 32
-        y: 243
+        x: 0
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1171,8 +1171,8 @@ TextureImporter:
       name: BluePants_51
       rect:
         serializedVersion: 2
-        x: 64
-        y: 243
+        x: 32
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1192,8 +1192,8 @@ TextureImporter:
       name: BluePants_52
       rect:
         serializedVersion: 2
-        x: 96
-        y: 243
+        x: 64
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1213,8 +1213,8 @@ TextureImporter:
       name: BluePants_53
       rect:
         serializedVersion: 2
-        x: 0
-        y: 216
+        x: 96
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1234,8 +1234,8 @@ TextureImporter:
       name: BluePants_54
       rect:
         serializedVersion: 2
-        x: 0
-        y: 189
+        x: 128
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1255,8 +1255,8 @@ TextureImporter:
       name: BluePants_55
       rect:
         serializedVersion: 2
-        x: 32
-        y: 189
+        x: 0
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1276,8 +1276,8 @@ TextureImporter:
       name: BluePants_56
       rect:
         serializedVersion: 2
-        x: 64
-        y: 189
+        x: 32
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1297,8 +1297,8 @@ TextureImporter:
       name: BluePants_57
       rect:
         serializedVersion: 2
-        x: 0
-        y: 162
+        x: 64
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1318,8 +1318,8 @@ TextureImporter:
       name: BluePants_58
       rect:
         serializedVersion: 2
-        x: 0
-        y: 135
+        x: 96
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1339,8 +1339,8 @@ TextureImporter:
       name: BluePants_59
       rect:
         serializedVersion: 2
-        x: 32
-        y: 135
+        x: 128
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1360,8 +1360,8 @@ TextureImporter:
       name: BluePants_60
       rect:
         serializedVersion: 2
-        x: 64
-        y: 135
+        x: 0
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1381,8 +1381,8 @@ TextureImporter:
       name: BluePants_61
       rect:
         serializedVersion: 2
-        x: 0
-        y: 108
+        x: 32
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1402,8 +1402,8 @@ TextureImporter:
       name: BluePants_62
       rect:
         serializedVersion: 2
-        x: 0
-        y: 81
+        x: 64
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1423,8 +1423,8 @@ TextureImporter:
       name: BluePants_63
       rect:
         serializedVersion: 2
-        x: 32
-        y: 81
+        x: 96
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1444,8 +1444,8 @@ TextureImporter:
       name: BluePants_64
       rect:
         serializedVersion: 2
-        x: 64
-        y: 81
+        x: 128
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1465,8 +1465,8 @@ TextureImporter:
       name: BluePants_65
       rect:
         serializedVersion: 2
-        x: 96
-        y: 81
+        x: 0
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1486,8 +1486,8 @@ TextureImporter:
       name: BluePants_66
       rect:
         serializedVersion: 2
-        x: 128
-        y: 81
+        x: 32
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1507,8 +1507,8 @@ TextureImporter:
       name: BluePants_67
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
+        x: 64
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1528,8 +1528,8 @@ TextureImporter:
       name: BluePants_68
       rect:
         serializedVersion: 2
-        x: 32
-        y: 54
+        x: 96
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1549,8 +1549,8 @@ TextureImporter:
       name: BluePants_69
       rect:
         serializedVersion: 2
-        x: 64
-        y: 54
+        x: 128
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1570,8 +1570,8 @@ TextureImporter:
       name: BluePants_70
       rect:
         serializedVersion: 2
-        x: 96
-        y: 54
+        x: 0
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1591,8 +1591,8 @@ TextureImporter:
       name: BluePants_71
       rect:
         serializedVersion: 2
-        x: 128
-        y: 54
+        x: 32
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1612,8 +1612,8 @@ TextureImporter:
       name: BluePants_72
       rect:
         serializedVersion: 2
-        x: 0
-        y: 27
+        x: 64
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1633,8 +1633,8 @@ TextureImporter:
       name: BluePants_73
       rect:
         serializedVersion: 2
-        x: 32
-        y: 27
+        x: 96
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1654,8 +1654,8 @@ TextureImporter:
       name: BluePants_74
       rect:
         serializedVersion: 2
-        x: 64
-        y: 27
+        x: 128
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1675,8 +1675,8 @@ TextureImporter:
       name: BluePants_75
       rect:
         serializedVersion: 2
-        x: 96
-        y: 27
+        x: 0
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1696,8 +1696,8 @@ TextureImporter:
       name: BluePants_76
       rect:
         serializedVersion: 2
-        x: 128
-        y: 27
+        x: 32
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1717,8 +1717,8 @@ TextureImporter:
       name: BluePants_77
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 64
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1738,8 +1738,8 @@ TextureImporter:
       name: BluePants_78
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 96
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1759,8 +1759,8 @@ TextureImporter:
       name: BluePants_79
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 128
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1780,8 +1780,8 @@ TextureImporter:
       name: BluePants_80
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 0
+        y: 243
         width: 32
         height: 27
       alignment: 0
@@ -1801,8 +1801,8 @@ TextureImporter:
       name: BluePants_81
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 32
+        y: 243
         width: 32
         height: 27
       alignment: 0
@@ -1814,6 +1814,1014 @@ TextureImporter:
       bones: []
       spriteID: 5f0a251e128cbf26b92c4d246bf027fe
       internalID: 1943445433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401d26d6fdbe03952856c9085843b738
+      internalID: -2100357108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f3ae8fecd5a5622b89d854a53580f1
+      internalID: -1627359659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 243
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36583b6b65a03f242b4449b69d85b563
+      internalID: 67766202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb59ec1d934296c9a83cef0d543d93e
+      internalID: 150595753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f52df5b0761721ed81526f80a3a7558
+      internalID: 1162103820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c89d9d3c5949005a045ed9a9ab795a
+      internalID: 1493098190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b6b30b30ac5a41a9446f3a4597dabb
+      internalID: 399944255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05437a0d599086ae69059abfe61fe1b2
+      internalID: 947361029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e542f2c388dc786ab810e9d92719a50
+      internalID: -1343614147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c4255f95b21bdf814ce204ee01bf4
+      internalID: 1604908576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f1ddc342bed22779e3fa21804dea5d
+      internalID: -411790386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af9c510360253c14bef507788a68a4d
+      internalID: -838179308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d167ce13b7e7f648c92c5ccd66f0eab4
+      internalID: 839713576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094c0a9197df3c6ef9416e41a1cf80f2
+      internalID: -657923944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29339031722249caa7962de8fe46a58
+      internalID: 1071512888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225455c237bbcd4f58ff89d2085aefa9
+      internalID: 1396511216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af940c1878b21d088c0a97ee9767288
+      internalID: -543663162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de056e0b1ffefa820ae506f1501d8cca
+      internalID: -214978467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d9b2e2a1f2ca97199e62469ec5c8e8
+      internalID: -1678570461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a95f3cf6cd63f4e8aa7ac7bca31d4b5
+      internalID: -2021173898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81399bd54385b522da970a6c6e2c345f
+      internalID: -1465811941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ea3f46750c19c99bdab395a000482b
+      internalID: -36497295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d31efb4981ff795abdc9add5120fbf4
+      internalID: -745328133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0b464fc54e1325db53461ce682c767
+      internalID: 1790913299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f57e47a046708a70bf6baa935b130d0
+      internalID: -2064961786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff60639dfe95d70afb07e6162c622a47
+      internalID: 1182935925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757dacd1027423751ba2fc54c308e302
+      internalID: 1484811610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b950b640adbceae81fb629f1cb0864
+      internalID: -1316225750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4aea11029b01f1f3a77fdc33e45cff7
+      internalID: 314705669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_111
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c18269a4e2a6b0deb1b71713f4a1da8
+      internalID: -67142948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e05007376574c25084a4f8f111750ff
+      internalID: 335482251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841b7bac43a89abb5abe626e9038f723
+      internalID: 707024444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9453547439a32b6a9349366599d3da
+      internalID: -910708660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb748a246044e6424a217f6e5c0d147a
+      internalID: -1893971244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ee4d7a5a0ccc1fa8886ffa902a8960
+      internalID: -1029369481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1718d360bf0a361958ad8ca8f79a3894
+      internalID: 1411543536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f9f53afd797bf2e9e7563ec5bf9f7b
+      internalID: 1586392334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc6008e3071a9b70a307c3bfdd2c9bc
+      internalID: -1726608885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5a21025ec8b9b85b648c00661601a2
+      internalID: 1857150381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234a89f908fe338cd93ea8a8b78b8332
+      internalID: -504600984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a113bd97e4e93ce20820c83fae781951
+      internalID: 37548566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a73265bfaef16781847a64117f0d5d8
+      internalID: -1372877116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ee6292b59fa31a18d51b6e1e0e2f38
+      internalID: -2121928799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79af8bd9a583e3be9af2d0781422ce39
+      internalID: 1673855941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee1ad9c0631c33d98e12ad361dceafc
+      internalID: 1366675534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5faa96dcf10e05e28f1778c7adb8017
+      internalID: -922827571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c1be275d2ff77e7b86687952a1753a
+      internalID: 1982370242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BluePants_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65b2798fc71381989416e53376ab7e2
+      internalID: -858121462
       vertices: []
       indices: 
       edges: []
@@ -1832,8 +2840,38 @@ TextureImporter:
       BluePants_0: 1938274343
       BluePants_1: -633066215
       BluePants_10: -2062569739
+      BluePants_100: -1678570461
+      BluePants_101: -2021173898
+      BluePants_102: -1465811941
+      BluePants_103: -36497295
+      BluePants_104: -745328133
+      BluePants_105: 1790913299
+      BluePants_106: -2064961786
+      BluePants_107: 1182935925
+      BluePants_108: 1484811610
+      BluePants_109: -1316225750
       BluePants_11: -167121298
+      BluePants_110: 314705669
+      BluePants_111: -67142948
+      BluePants_112: 335482251
+      BluePants_113: 707024444
+      BluePants_114: -910708660
+      BluePants_115: -1893971244
+      BluePants_116: -1029369481
+      BluePants_117: 1411543536
+      BluePants_118: 1586392334
+      BluePants_119: -1726608885
       BluePants_12: -934181733
+      BluePants_120: 1857150381
+      BluePants_121: -504600984
+      BluePants_122: 37548566
+      BluePants_123: -1372877116
+      BluePants_124: -2121928799
+      BluePants_125: 1673855941
+      BluePants_126: 1366675534
+      BluePants_127: -922827571
+      BluePants_128: 1982370242
+      BluePants_129: -858121462
       BluePants_13: 2733238
       BluePants_14: 1009026888
       BluePants_15: 1744079956
@@ -1910,7 +2948,25 @@ TextureImporter:
       BluePants_8: 1433016720
       BluePants_80: -114038757
       BluePants_81: 1943445433
+      BluePants_82: -2100357108
+      BluePants_83: -1627359659
+      BluePants_84: 67766202
+      BluePants_85: 150595753
+      BluePants_86: 1162103820
+      BluePants_87: 1493098190
+      BluePants_88: 399944255
+      BluePants_89: 947361029
       BluePants_9: 590417048
+      BluePants_90: -1343614147
+      BluePants_91: 1604908576
+      BluePants_92: -411790386
+      BluePants_93: -838179308
+      BluePants_94: 839713576
+      BluePants_95: -657923944
+      BluePants_96: 1071512888
+      BluePants_97: 1396511216
+      BluePants_98: -543663162
+      BluePants_99: -214978467
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

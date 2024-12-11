@@ -18,7 +18,7 @@ for FILE in "$TARGET_DIR"/*; do
         DIRNAME=$(dirname "$FILE")
 
         # Replace 'BlondeHair' with 'BlackRobe' in the filename
-        NEW_BASENAME=$(echo "$BASENAME" | sed 's/BlondeHair/BlackRobe/g')
+        NEW_BASENAME=$(echo "$BASENAME" | sed 's/BlondeHair/GreyShirt/g')
         NEW_NAME="$DIRNAME/$NEW_BASENAME"
 
         # Rename the file if the name has changed

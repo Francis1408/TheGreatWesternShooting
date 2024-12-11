@@ -184,8 +184,8 @@ TextureImporter:
       name: RedScarf_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 648
+        x: 128
+        y: 675
         width: 32
         height: 27
       alignment: 0
@@ -205,7 +205,7 @@ TextureImporter:
       name: RedScarf_5
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 648
         width: 32
         height: 27
@@ -226,7 +226,7 @@ TextureImporter:
       name: RedScarf_6
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 648
         width: 32
         height: 27
@@ -247,7 +247,7 @@ TextureImporter:
       name: RedScarf_7
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 648
         width: 32
         height: 27
@@ -268,7 +268,7 @@ TextureImporter:
       name: RedScarf_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 648
         width: 32
         height: 27
@@ -289,8 +289,8 @@ TextureImporter:
       name: RedScarf_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 621
+        x: 128
+        y: 648
         width: 32
         height: 27
       alignment: 0
@@ -310,7 +310,7 @@ TextureImporter:
       name: RedScarf_10
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 621
         width: 32
         height: 27
@@ -331,7 +331,7 @@ TextureImporter:
       name: RedScarf_11
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 621
         width: 32
         height: 27
@@ -352,7 +352,7 @@ TextureImporter:
       name: RedScarf_12
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 621
         width: 32
         height: 27
@@ -373,8 +373,8 @@ TextureImporter:
       name: RedScarf_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 594
+        x: 96
+        y: 621
         width: 32
         height: 27
       alignment: 0
@@ -394,8 +394,8 @@ TextureImporter:
       name: RedScarf_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 594
+        x: 128
+        y: 621
         width: 32
         height: 27
       alignment: 0
@@ -415,7 +415,7 @@ TextureImporter:
       name: RedScarf_15
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 594
         width: 32
         height: 27
@@ -436,7 +436,7 @@ TextureImporter:
       name: RedScarf_16
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 594
         width: 32
         height: 27
@@ -457,7 +457,7 @@ TextureImporter:
       name: RedScarf_17
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 594
         width: 32
         height: 27
@@ -478,8 +478,8 @@ TextureImporter:
       name: RedScarf_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 567
+        x: 96
+        y: 594
         width: 32
         height: 27
       alignment: 0
@@ -499,8 +499,8 @@ TextureImporter:
       name: RedScarf_19
       rect:
         serializedVersion: 2
-        x: 0
-        y: 540
+        x: 128
+        y: 594
         width: 32
         height: 27
       alignment: 0
@@ -521,7 +521,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 513
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -542,7 +542,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 513
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -563,7 +563,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 513
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -584,7 +584,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 513
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -604,8 +604,8 @@ TextureImporter:
       name: RedScarf_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 486
+        x: 128
+        y: 567
         width: 32
         height: 27
       alignment: 0
@@ -626,7 +626,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 459
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -647,7 +647,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 459
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -668,7 +668,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 459
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -689,7 +689,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 459
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -709,8 +709,8 @@ TextureImporter:
       name: RedScarf_29
       rect:
         serializedVersion: 2
-        x: 0
-        y: 432
+        x: 128
+        y: 540
         width: 32
         height: 27
       alignment: 0
@@ -731,7 +731,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 405
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -752,7 +752,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 405
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -773,7 +773,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 405
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -794,7 +794,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 405
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -815,7 +815,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 405
+        y: 513
         width: 32
         height: 27
       alignment: 0
@@ -836,7 +836,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 378
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -857,7 +857,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 378
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -878,7 +878,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 378
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -899,7 +899,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 378
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -920,7 +920,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 378
+        y: 486
         width: 32
         height: 27
       alignment: 0
@@ -941,7 +941,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 351
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -962,7 +962,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 351
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -983,7 +983,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 351
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1004,7 +1004,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 351
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1024,8 +1024,8 @@ TextureImporter:
       name: RedScarf_44
       rect:
         serializedVersion: 2
-        x: 0
-        y: 324
+        x: 128
+        y: 459
         width: 32
         height: 27
       alignment: 0
@@ -1046,7 +1046,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 297
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1067,7 +1067,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 297
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1088,7 +1088,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 297
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1109,7 +1109,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 297
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1130,7 +1130,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 297
+        y: 432
         width: 32
         height: 27
       alignment: 0
@@ -1151,7 +1151,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 270
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1172,7 +1172,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 270
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1193,7 +1193,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 270
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1214,7 +1214,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 270
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1235,7 +1235,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 270
+        y: 405
         width: 32
         height: 27
       alignment: 0
@@ -1256,7 +1256,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 243
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1277,7 +1277,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 243
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1298,7 +1298,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 243
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1319,7 +1319,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 96
-        y: 243
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1339,8 +1339,8 @@ TextureImporter:
       name: RedScarf_59
       rect:
         serializedVersion: 2
-        x: 0
-        y: 216
+        x: 128
+        y: 378
         width: 32
         height: 27
       alignment: 0
@@ -1361,7 +1361,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 189
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1382,7 +1382,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 189
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1403,7 +1403,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 189
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1423,8 +1423,8 @@ TextureImporter:
       name: RedScarf_63
       rect:
         serializedVersion: 2
-        x: 0
-        y: 162
+        x: 96
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1444,8 +1444,8 @@ TextureImporter:
       name: RedScarf_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 135
+        x: 128
+        y: 351
         width: 32
         height: 27
       alignment: 0
@@ -1465,8 +1465,8 @@ TextureImporter:
       name: RedScarf_65
       rect:
         serializedVersion: 2
-        x: 32
-        y: 135
+        x: 0
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1486,8 +1486,8 @@ TextureImporter:
       name: RedScarf_66
       rect:
         serializedVersion: 2
-        x: 64
-        y: 135
+        x: 32
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1507,8 +1507,8 @@ TextureImporter:
       name: RedScarf_67
       rect:
         serializedVersion: 2
-        x: 0
-        y: 108
+        x: 64
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1528,8 +1528,8 @@ TextureImporter:
       name: RedScarf_68
       rect:
         serializedVersion: 2
-        x: 0
-        y: 81
+        x: 96
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1549,8 +1549,8 @@ TextureImporter:
       name: RedScarf_69
       rect:
         serializedVersion: 2
-        x: 32
-        y: 81
+        x: 128
+        y: 324
         width: 32
         height: 27
       alignment: 0
@@ -1570,8 +1570,8 @@ TextureImporter:
       name: RedScarf_70
       rect:
         serializedVersion: 2
-        x: 64
-        y: 81
+        x: 0
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1591,8 +1591,8 @@ TextureImporter:
       name: RedScarf_71
       rect:
         serializedVersion: 2
-        x: 96
-        y: 81
+        x: 32
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1612,8 +1612,8 @@ TextureImporter:
       name: RedScarf_72
       rect:
         serializedVersion: 2
-        x: 128
-        y: 81
+        x: 64
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1633,8 +1633,8 @@ TextureImporter:
       name: RedScarf_73
       rect:
         serializedVersion: 2
-        x: 0
-        y: 54
+        x: 96
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1654,8 +1654,8 @@ TextureImporter:
       name: RedScarf_74
       rect:
         serializedVersion: 2
-        x: 32
-        y: 54
+        x: 128
+        y: 297
         width: 32
         height: 27
       alignment: 0
@@ -1675,8 +1675,8 @@ TextureImporter:
       name: RedScarf_75
       rect:
         serializedVersion: 2
-        x: 64
-        y: 54
+        x: 0
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1696,8 +1696,8 @@ TextureImporter:
       name: RedScarf_76
       rect:
         serializedVersion: 2
-        x: 96
-        y: 54
+        x: 32
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1717,8 +1717,8 @@ TextureImporter:
       name: RedScarf_77
       rect:
         serializedVersion: 2
-        x: 128
-        y: 54
+        x: 64
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1738,8 +1738,8 @@ TextureImporter:
       name: RedScarf_78
       rect:
         serializedVersion: 2
-        x: 0
-        y: 27
+        x: 96
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1759,8 +1759,8 @@ TextureImporter:
       name: RedScarf_79
       rect:
         serializedVersion: 2
-        x: 32
-        y: 27
+        x: 128
+        y: 270
         width: 32
         height: 27
       alignment: 0
@@ -1780,8 +1780,8 @@ TextureImporter:
       name: RedScarf_80
       rect:
         serializedVersion: 2
-        x: 64
-        y: 27
+        x: 0
+        y: 243
         width: 32
         height: 27
       alignment: 0
@@ -1801,8 +1801,8 @@ TextureImporter:
       name: RedScarf_81
       rect:
         serializedVersion: 2
-        x: 96
-        y: 27
+        x: 32
+        y: 243
         width: 32
         height: 27
       alignment: 0
@@ -1822,8 +1822,8 @@ TextureImporter:
       name: RedScarf_82
       rect:
         serializedVersion: 2
-        x: 128
-        y: 27
+        x: 64
+        y: 243
         width: 32
         height: 27
       alignment: 0
@@ -1843,8 +1843,8 @@ TextureImporter:
       name: RedScarf_83
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 96
+        y: 243
         width: 32
         height: 27
       alignment: 0
@@ -1864,8 +1864,8 @@ TextureImporter:
       name: RedScarf_84
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 128
+        y: 243
         width: 32
         height: 27
       alignment: 0
@@ -1885,8 +1885,8 @@ TextureImporter:
       name: RedScarf_85
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 0
+        y: 216
         width: 32
         height: 27
       alignment: 0
@@ -1906,8 +1906,8 @@ TextureImporter:
       name: RedScarf_86
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 32
+        y: 216
         width: 32
         height: 27
       alignment: 0
@@ -1927,8 +1927,8 @@ TextureImporter:
       name: RedScarf_87
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 64
+        y: 216
         width: 32
         height: 27
       alignment: 0
@@ -1940,6 +1940,888 @@ TextureImporter:
       bones: []
       spriteID: 520d715d6a1105150ac3f91160ee5d96
       internalID: -2059221639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec67d40383f2fb715976221029f315ac
+      internalID: 525952277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 216
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bd1f199f0e9df789e35dd6fd13b3e2
+      internalID: 1162815990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3564d0133a6b36189af70854f8b02c2b
+      internalID: 1988198342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cf6a9e3699ce57089d3d336423fe19
+      internalID: -121316641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08457f4107e34e509823f3fae9466b1
+      internalID: -522775214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf56bef394dc8fba9ed355d344f35cf
+      internalID: -190019747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 189
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a450b0b5d5a960957d42267c6fd14
+      internalID: 932488863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a485a456d3dae31e85c24a5c2ea440e
+      internalID: 572791607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_96
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e8cb89d9a8d8dd7984da19081ad545
+      internalID: -1723256115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2401ce820aea48997b2a092644e587bd
+      internalID: -519630203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b2e539c06631f2388f578c7f516e1d
+      internalID: -860584519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 162
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c96183bbba56170ab902c06831ea618
+      internalID: -794387252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf5d193fa91b6c8188529cfa05072a2
+      internalID: -1032638511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c071419f0efc66d2d9cce5349ae93415
+      internalID: -2041688908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff46b803c894b31c848b36a4b0f0cbe
+      internalID: 1532886985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abb3b15cd34676eab0a71c9c96aeb07
+      internalID: 1163665119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 135
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d53c1cbd29e028e3a49119cb514e1c4
+      internalID: 1100922988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b741f1162da77ef78a868bb5701c250
+      internalID: -451981556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b3b7e97fba62dd6a2d97254afc3b73
+      internalID: 1762485018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_107
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd43507c1922c8908036b40d1111dda
+      internalID: 1749732187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885e7074dbea40ecd87b18b79181dfe5
+      internalID: -1773828683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 108
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed9ea625cea43dc1b55f7bb79fa4fd0
+      internalID: 1311534048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a27ef58b5edc73da8ea5676e97a7ed
+      internalID: -119613756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_111
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37cba8b4b51310eb969da14102651c4
+      internalID: 249691238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ed16aa5d0c7a2d49d839ffdcdf1781
+      internalID: -865296460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545704cb07bad005885779332297f94a
+      internalID: 706142867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aadacb1b84a1a622aaa61eabe08f11f
+      internalID: 194391487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31d4cbd0d73e799a09dbc8d8148a18
+      internalID: -340845454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c80ea55d6c1929d9b3e579b339721a7
+      internalID: 668773123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b69fdf5b53248ec9997af8d4d858c13
+      internalID: -1869383321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a61029aed107d7ca19946790964350
+      internalID: -2066606947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 54
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f920cfc97a3ce916988f26b5dcea8bdf
+      internalID: -878668284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13ac21866bc836189fd2da59ccd4226
+      internalID: 1372992412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfb4f68a873746558c05aa9cc9432ed
+      internalID: 1230026866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63faa0dfa7c2e929889dfe020399644e
+      internalID: 87892348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ed9c4481e30f25bc5c717334c321a
+      internalID: 1364082371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 27
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0615208eeae6234a1c061a72b8dde1
+      internalID: -2033724720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346820795a36c50dba3f0977d4ac6e58
+      internalID: -1981084944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c247556080e77253caaded5c874d9d67
+      internalID: 418980880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a308bddd8c955d0a76566e04517ae5
+      internalID: 279273650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8a92485978d2f97b9aab255fbb1d43
+      internalID: 106800746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedScarf_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243167df652349e02a7d6e988bbd1503
+      internalID: 1939767710
       vertices: []
       indices: 
       edges: []
@@ -1958,8 +2840,38 @@ TextureImporter:
       RedScarf_0: 641658934
       RedScarf_1: -2090791287
       RedScarf_10: 353732250
+      RedScarf_100: -1032638511
+      RedScarf_101: -2041688908
+      RedScarf_102: 1532886985
+      RedScarf_103: 1163665119
+      RedScarf_104: 1100922988
+      RedScarf_105: -451981556
+      RedScarf_106: 1762485018
+      RedScarf_107: 1749732187
+      RedScarf_108: -1773828683
+      RedScarf_109: 1311534048
       RedScarf_11: -717139570
+      RedScarf_110: -119613756
+      RedScarf_111: 249691238
+      RedScarf_112: -865296460
+      RedScarf_113: 706142867
+      RedScarf_114: 194391487
+      RedScarf_115: -340845454
+      RedScarf_116: 668773123
+      RedScarf_117: -1869383321
+      RedScarf_118: -2066606947
+      RedScarf_119: -878668284
       RedScarf_12: -580788459
+      RedScarf_120: 1372992412
+      RedScarf_121: 1230026866
+      RedScarf_122: 87892348
+      RedScarf_123: 1364082371
+      RedScarf_124: -2033724720
+      RedScarf_125: -1981084944
+      RedScarf_126: 418980880
+      RedScarf_127: 279273650
+      RedScarf_128: 106800746
+      RedScarf_129: 1939767710
       RedScarf_13: 1155080378
       RedScarf_14: -1021238152
       RedScarf_15: 716141599
@@ -2042,7 +2954,19 @@ TextureImporter:
       RedScarf_85: 416655737
       RedScarf_86: 99788341
       RedScarf_87: -2059221639
+      RedScarf_88: 525952277
+      RedScarf_89: 1162815990
       RedScarf_9: 380095617
+      RedScarf_90: 1988198342
+      RedScarf_91: -121316641
+      RedScarf_92: -522775214
+      RedScarf_93: -190019747
+      RedScarf_94: 932488863
+      RedScarf_95: 572791607
+      RedScarf_96: -1723256115
+      RedScarf_97: -519630203
+      RedScarf_98: -860584519
+      RedScarf_99: -794387252
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
