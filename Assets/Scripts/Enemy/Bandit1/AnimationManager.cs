@@ -9,10 +9,11 @@ public abstract class AnimationManager: MonoBehaviour
     public Animator animator;
 
     public abstract string ConcatenatePrefixes(string movementType);
-   
-
+    
     public void ChangeAnimationState(string animationType)
     {
+        
+        
         string newState = ConcatenatePrefixes(animationType);
         
         //stop the same animation from interrupting itself

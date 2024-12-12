@@ -40,11 +40,10 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
     {
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        
+
     }
     public void Move(Enemy enemy)
     {
-        EnemyLookAt(); // Updates enemy facing the player
 
         if (Player.Instance.lifes > 0) // While the player still alive
         {
@@ -101,26 +100,7 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
             state = State.Roaming;
         }
     }
-
-    private void EnemyLookAt()
-    {
-        Vector3 direction = Player.Instance.transform.position - transform.position;
-        
-        enemyAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        //Debug.Log(enemyAngle);
-        //rb.rotation = playerAngle;
-        if (enemyAngle > -90f + bufferAngle && enemyAngle < 90f - bufferAngle)
-        {
-           
-            isRightHanded = true;
-        }
-        else if (enemyAngle < -90f - bufferAngle || enemyAngle > 90f + bufferAngle)
-        {
-            
-            isRightHanded = false;
-        }
-
-    }
+    
     
     // Draw Gizmos in the scene to visualize the distances
     private void OnDrawGizmosSelected()
@@ -159,7 +139,7 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
         Gizmos.DrawRay(enemyPosition, directionNormalized * 2); // Draw the direction to the player
 
         // Optional: Draw arc for better visualization
-        DrawAngleArc(enemyPosition, forward, directionNormalized, 2.0f);
+       // DrawAngleArc(enemyPosition, forward, directionNormalized, 2.0f);
     }
     
     private void DrawAngleArc(Vector3 origin, Vector3 forward, Vector3 targetDir, float radius)

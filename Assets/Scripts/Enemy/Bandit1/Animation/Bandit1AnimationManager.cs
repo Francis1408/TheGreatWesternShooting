@@ -46,6 +46,7 @@ public class Bandit1AnimationManager : MonoBehaviour
    
     
     private EnemyMovement enemyMovement;
+    private EnemyAttack enemyAttack;
     private string current_state;
 
     public float axisX, axisY;
@@ -58,10 +59,13 @@ public class Bandit1AnimationManager : MonoBehaviour
     public AnimationManager skinAnimator;
     public AnimationManager scarfAnimator;
     public AnimationManager shirtAnimator;
+    public AnimationManager eyeAnimator;
     
     void Start()
     {
        // animator = GetComponent<Animator>();
+       // Get the enemy references
+       enemyAttack = GetComponent<EnemyAttack>();
        enemyMovement = GetComponent<EnemyMovement>();
     }
 
@@ -71,7 +75,7 @@ public class Bandit1AnimationManager : MonoBehaviour
    
     
 
-    switch (enemyMovement.isRightHanded)
+    switch (enemyAttack.isRightHanded)
     {
         // Check initially in which angle the player is aiming to define the correct sprite sheet
         /*
@@ -92,7 +96,7 @@ public class Bandit1AnimationManager : MonoBehaviour
      */
            
         case true:
-                switch (enemyAngle)
+                switch (enemyAttack.aimAngle)
                 {
                     
                     // Right
@@ -107,7 +111,7 @@ public class Bandit1AnimationManager : MonoBehaviour
                         ModifyAnimationStates(IDLE_FRONT_RIGHT);
                         break;
                     case <= -60f and > -90f:
-                        ModifyAnimationStates(WALKING_FRONT_LEFT);
+                        ModifyAnimationStates(WALKING_FRONT_RIGHT);
                         break;
                     // Top Right
                     case <= 90f and > 60f when enemyMovement.isMoving == false:
@@ -126,14 +130,14 @@ public class Bandit1AnimationManager : MonoBehaviour
                 }
                 break;
             case false:
-                switch (enemyMovement.enemyAngle)
+                switch (enemyAttack.aimAngle)
                 {
                     // Front Left
                     case <= -90f and > -120f when enemyMovement.isMoving == false:
                         ModifyAnimationStates(IDLE_FRONT_LEFT);
                         break;
                     case <= -90f and > -120f:
-                        ModifyAnimationStates(WALKING_FRONT_RIGHT);
+                        ModifyAnimationStates(WALKING_FRONT_LEFT);
                         break;
                     case <= -120f and >= -180f:
                     // Left
@@ -179,6 +183,7 @@ public class Bandit1AnimationManager : MonoBehaviour
      skinAnimator.ChangeAnimationState(newState);
      scarfAnimator.ChangeAnimationState(newState);
      shirtAnimator.ChangeAnimationState(newState);
+     eyeAnimator.ChangeAnimationState(newState);
     }
         
 }
