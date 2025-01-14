@@ -9,12 +9,13 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
     
     // Transform to manage the weapon position
     private Transform m_transform;
+    public Transform bulletTransform;
     private float bufferAngle = 20f;
     public bool isRightHanded = true;
     private float initial_x_pos;
     private float initial_y_pos;
     private float initial_z_pos;
-    private float offset = 0.55f;
+    private float offset = 0.1f;
     public float aimAngle;
     
     // Weapon type
@@ -55,7 +56,7 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
                 timer = 0;
                 canFire = false;
                 Vector2 direction = (Player.Instance.GetPosition() - transform.position).normalized;
-                GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+                GameObject bullet = Instantiate(bulletPrefab, bulletTransform.position, Quaternion.identity);
                 
                 // Set bullet rotation based on the direction
                 float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;

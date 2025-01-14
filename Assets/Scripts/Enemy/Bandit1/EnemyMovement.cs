@@ -45,7 +45,7 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
     public void Move(Enemy enemy)
     {
 
-        if (Player.Instance.lifes > 0) // While the player still alive
+        if (Player.Instance.lifes > 0 && isMoving) // While the player still alive and the enemy is not dead
         {
             agent.isStopped = false;
             isMoving = true;
@@ -75,13 +75,14 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
                     break;
             }
         }
-        else // When it is dead and is gameOver
-        {
-            agent.isStopped = true;
-            isMoving = false;
-        }
     }
-    
+
+    public void Stop()
+    {
+        isMoving = false;
+        agent.isStopped = true;
+    }
+
     private Vector3 GetRoamingPosition() {
         return transform.position + GetRandomDir() * Random.Range(3f, 3f);
     } 

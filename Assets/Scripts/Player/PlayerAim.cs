@@ -6,12 +6,7 @@ public class PlayerAim : MonoBehaviour
 {
 
     private Transform m_transform;
-    public GameObject bullet;
-    public Transform bulletTransform;
-    public bool canFire, isFiring;
-    private float timer;
     private float maxMouseDistance = 2.0f;
-    public float timeBetweenFiring;
     public float angle;
     private PlayerOrientation playerOrientation;
 
@@ -46,20 +41,15 @@ public class PlayerAim : MonoBehaviour
 
     public void HandleShooting()
     {
-        if (!canFire)
+        Weapon equippedWeapon = m_transform.GetComponentInChildren<Weapon>();
+        if (m_transform.GetComponentInChildren<Weapon>())
         {
-            timer += Time.deltaTime;
-            if (timer > timeBetweenFiring)
-            {
-                canFire = true;
-                timer = 0;
-            }
+            if(Input.GetMouseButton(0)) equippedWeapon.Shoot();
+                
         }
-
-        if (Input.GetMouseButton(0) && canFire)
+        else
         {
-            canFire = false;
-            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+            Debug.Log("Weapon not equipped");
         }
     }
 

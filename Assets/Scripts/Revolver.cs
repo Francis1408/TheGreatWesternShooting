@@ -4,18 +4,34 @@ using UnityEngine;
 
 public class Revolver : Weapon
 {
-
-    void Start()
-    {
-        this.size_x = 0.4f;
-        this.size_y = 0.396f;
-        this.size_z = 0.915f;
-
-    }
+    private bool canFire = true;
+    private float timer;
+    public GameObject bullet;
+    public Transform bulletTransform;
+    
 
     // Update is called once per frame
     void Update()
     {
+        if (!canFire)
+        {
+            timer += Time.deltaTime;
+            if (timer > coolDownTime)
+            {
+                canFire = true;
+                timer = 0;
+            }
+        }
         
+    }
+
+    public override void Shoot()
+    {
+
+        if (canFire)
+        {
+            canFire = false;
+            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+        }
     }
 }
