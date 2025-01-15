@@ -2114,8 +2114,8 @@ Transform:
   m_GameObject: {fileID: 2223612142939128888}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.407, y: -0.245, z: 0}
-  m_LocalScale: {x: 0.357012, y: 0.35392767, z: 0.8172994}
+  m_LocalPosition: {x: 0.407, y: -0.249, z: 0}
+  m_LocalScale: {x: 0.357012, y: 0.3539277, z: 0.8172995}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5139432224107817908}
@@ -2719,6 +2719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angle: 0
+  gunOffset: {x: 0, y: 0, z: 0}
 --- !u!4 &4944201764785260615
 Transform:
   m_ObjectHideFlags: 0
@@ -2767,9 +2768,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9019368609504030094}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: 0.19, z: 0}
-  m_LocalScale: {x: 26.414858, y: 26.414858, z: 26.414858}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.19000001, z: 0}
+  m_LocalScale: {x: 26.414856, y: 26.414854, z: 26.414854}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 76770389768378517}

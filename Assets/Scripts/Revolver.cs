@@ -43,12 +43,6 @@ public class Revolver : Weapon
             // Perform the raycast in the calculated direction
             var hit = Physics2D.Raycast(bulletTransform.position, direction);
             
-            float distance = Vector3.Distance(bulletTransform.position, mouseWorldPosition);
-            Debug.Log(distance);
-            
-            Debug.DrawRay(bulletTransform.position, direction * 10, Color.red, 1f);
-            
-            
             if (hit.collider != null)
             {
                 Debug.Log($"Hit {hit.collider.name} at {hit.point}");
@@ -63,7 +57,33 @@ public class Revolver : Weapon
                 bulletTransform.position,
                 Quaternion.FromToRotation(Vector3.up, direction));
 
-           // BulletTrail trailScript = trail.GetComponent<BulletTrail>();
+            BulletTrail trailScript = trail.GetComponent<BulletTrail>();
+
+            if (hit.collider != null)
+            {
+                trailScript.SetTargetPosition(hit.point);
+                hitManager(hit);
+               
+            }
+            else
+            {
+                Vector3 endPosition = bulletTransform.position +
+                                      (Vector3)direction * Vector3.Distance(mouseWorldPosition ,bulletTransform.position);
+                
+                trailScript.SetTargetPosition(endPosition);
+              
+            }
+            
         }
+    }
+
+    private void hitManager(RaycastHit2D hit)
+    {
+        Enemy enemy = hit.transform.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
+        
     }
 }

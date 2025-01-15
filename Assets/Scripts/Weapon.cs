@@ -16,6 +16,7 @@ public abstract class Weapon : MonoBehaviour
     public int maxAmmo;
     public float reloadTime;
     public float coolDownTime;
+    public float damage;
 
     protected int currentAmmo;
 

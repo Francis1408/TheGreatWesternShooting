@@ -21,9 +21,9 @@ public class BulletTrail : MonoBehaviour
         
     }
 
-    public void SetTargerPosition(Vector3 targetPosition)
+    public void SetTargetPosition(Vector3 targetPosition)
     {
-        targetPosition = new Vector3(targetPosition.x, targetPosition.y, -1);
+        this.targetPosition = new Vector3(targetPosition.x, targetPosition.y, -1);
     }
     
 }

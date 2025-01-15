@@ -66,7 +66,13 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
                 rb.velocity = direction * bulletSpeed;
         }
     }
-    
+
+    public void Halt()
+    {
+        // Destroy Enemy Aim
+        Destroy(m_transform.gameObject);
+    }
+
     // Applies transformation to the Weapon based on the player location
     private void HandleAiming()
     {

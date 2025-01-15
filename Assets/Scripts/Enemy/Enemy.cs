@@ -42,7 +42,7 @@ public class Enemy : MonoBehaviour
         }
         
         // Handle attack
-        if (attackBehavior != null)
+        if (attackBehavior != null && health > 0)
         {
             attackBehavior.Attack(this);
         }
@@ -88,6 +88,8 @@ public class Enemy : MonoBehaviour
         movementBehavior.Stop();
         // Triggers death animation
         animationBehaviour.HandleDeathAnimation();
+        // Stop enemy attack
+        attackBehavior.Halt();
         // Wait for the predefined despawn time
         yield return new WaitForSeconds(despawnTime);
 
