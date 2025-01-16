@@ -11,6 +11,9 @@ public class Enemy : MonoBehaviour
     public int pointsOnKill;
     public float despawnTime;
    // public Weapon weapon; // Reference to a Weapon class
+   
+   // Flags
+    public bool alive = true;
 
     // Movement behavior placeholder
     public IEnemyMovement movementBehavior;
@@ -59,8 +62,9 @@ public class Enemy : MonoBehaviour
     {
         health -= damageAmount;
 
-        if (health <= 0)
+        if (health <= 0 && alive)
         {
+            alive = false;
             Die();
         }
     }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,9 @@ public class Revolver : Weapon
     public Transform bulletTransform;
     public GameObject bulletTrail;
     public Animator muzzleFlashAnimator;
+
+    public LayerMask ignoreLayerMask;
+
     
 
     // Update is called once per frame
@@ -40,8 +44,11 @@ public class Revolver : Weapon
             // Calculate the direction from the bullet transform to the mouse position
             Vector2 direction = (mouseWorldPosition - bulletTransform.position).normalized;
             
+            // Calculate the distance between the gun and the mouse
+            float distance = Vector2.Distance(bulletTransform.position, mouseWorldPosition);
+            
             // Perform the raycast in the calculated direction
-            var hit = Physics2D.Raycast(bulletTransform.position, direction);
+            var hit = Physics2D.Raycast(bulletTransform.position, direction, distance , ignoreLayerMask);
             
             if (hit.collider != null)
             {
