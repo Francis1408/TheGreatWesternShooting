@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Revolver : Weapon
 {
-    private bool canFire = true;
     private float timer;
     public Transform bulletTransform;
     public GameObject bulletTrail;
@@ -13,12 +12,28 @@ public class Revolver : Weapon
 
     public LayerMask ignoreLayerMask;
 
-    
+
+    private void Start()
+    {
+        // Setting up the flags at the beginning 
+        canFire = true;
+        isReloading = false;
+        
+        // Starts loaded 
+        currentAmmo = maxAmmo;
+    }
+
 
     // Update is called once per frame
     void Update()
     {
-        if (!canFire)
+        // Reloads automatically when ammo reaches zero 
+        if (currentAmmo == 0 && !isReloading)
+        {
+            StartCoroutine(Reload());
+        }
+        
+        if (!canFire && !isReloading)
         {
             timer += Time.deltaTime;
             if (timer > coolDownTime)
@@ -36,7 +51,10 @@ public class Revolver : Weapon
         if (canFire)
         {
             canFire = false;
-            //muzzleFlashAnimator.SetTrigger("Shoot");
+            //muzzleFlashAnimator.SetTrigger("Shoot"); // For futher animation
+            
+            // Decreases ammo
+            currentAmmo--;
             
             // Calculate the distance between the bulletTransform and the mousePointer
            
@@ -82,6 +100,29 @@ public class Revolver : Weapon
             }
             
         }
+    }
+
+    public override IEnumerator Reload()
+    {
+        // No need to reload
+        if (currentAmmo == maxAmmo)
+        {
+            Debug.Log("Ammo full no need to reload");
+            yield break;
+        }
+        
+        // Makes the reload action
+        canFire = false; // Interrupts firing 
+        isReloading = true;
+        Debug.Log("Is reloading");
+        yield return new WaitForSeconds(reloadTime);
+        
+        // Reload complete
+        Debug.Log("Reload Complete");
+        currentAmmo = maxAmmo;
+        isReloading = false;
+        canFire = true; // Can fire immediately after the reload
+
     }
 
     private void hitManager(RaycastHit2D hit)

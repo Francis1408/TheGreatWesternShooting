@@ -66,8 +66,12 @@ public class PlayerAim : MonoBehaviour
         Weapon equippedWeapon = m_transform.GetComponentInChildren<Weapon>();
         if (m_transform.GetComponentInChildren<Weapon>())
         {
+            // Shooting action
             if(Input.GetMouseButton(0)) equippedWeapon.Shoot();
-                
+            
+            // Reloading action
+            if (Input.GetKeyDown(KeyCode.R) && !equippedWeapon.isReloading) StartCoroutine(equippedWeapon.Reload());
+
         }
         else
         {

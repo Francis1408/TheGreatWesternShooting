@@ -14,21 +14,21 @@ public abstract class Weapon : MonoBehaviour
     public Sprite weaponSprite;
 
     public int maxAmmo;
+    protected int currentAmmo;
+    
     public float reloadTime;
     public float coolDownTime;
     public float damage;
 
-    protected int currentAmmo;
+    [Header("Weapon Universal Flags")] public bool isReloading;
+    public bool canFire;
+
 
     public abstract void Shoot();
     
-    public Sprite GetWeaponSprite() => weaponSprite;
-   
-
     //Reload function
-    public virtual void Reload()
-    {
-        currentAmmo = maxAmmo;
-    }
+    public abstract IEnumerator Reload();
     
+    public Sprite GetWeaponSprite() => weaponSprite;
+
 }
