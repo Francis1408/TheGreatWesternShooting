@@ -20,7 +20,7 @@ public class Revolver : Weapon
         isReloading = false;
         
         // Starts loaded 
-        currentAmmo = maxAmmo;
+        currentAmmo = ammoCapacity;
     }
 
 
@@ -55,6 +55,7 @@ public class Revolver : Weapon
             
             // Decreases ammo
             currentAmmo--;
+            NotifyCurrentAmmoChange(); // Callback to notify UI's that the currentAmmoHasChanged
             
             // Calculate the distance between the bulletTransform and the mousePointer
            
@@ -105,7 +106,7 @@ public class Revolver : Weapon
     public override IEnumerator Reload()
     {
         // No need to reload
-        if (currentAmmo == maxAmmo)
+        if (currentAmmo == ammoCapacity)
         {
             Debug.Log("Ammo full no need to reload");
             yield break;
@@ -119,7 +120,8 @@ public class Revolver : Weapon
         
         // Reload complete
         Debug.Log("Reload Complete");
-        currentAmmo = maxAmmo;
+        currentAmmo = ammoCapacity;
+        NotifyCurrentAmmoChange(); // Callback to notify UI's that the currentAmmoHasChanged
         isReloading = false;
         canFire = true; // Can fire immediately after the reload
 

@@ -11,8 +11,8 @@ TagManager:
   - NavMesh
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - Projectile
   - 
   - 
   - 

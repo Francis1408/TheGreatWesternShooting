@@ -102,16 +102,21 @@ MonoBehaviour:
   size_y: 0.396
   size_z: 0.915
   weaponSprite: {fileID: 21300000, guid: d1f16d761dc9ac3329f7b797651abfa8, type: 3}
-  maxAmmo: 6
+  weaponAmmoSprite: {fileID: 7228712838137808895, guid: e116cc6a5b369c4f7905660174cd031e, type: 3}
+  gunName: Colt 45
+  ammoCapacity: 6
+  currentAmmo: 0
   reloadTime: 3
   coolDownTime: 1
   damage: 1
+  isReloading: 0
+  canFire: 0
   bulletTransform: {fileID: 8608423054168272819}
   bulletTrail: {fileID: 8498172218836727122, guid: a3db7a768a3a7031581dbac13528e03b, type: 3}
   muzzleFlashAnimator: {fileID: 0}
-  layerMask:
+  ignoreLayerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!1 &8957671227735956158
 GameObject:
   m_ObjectHideFlags: 0
