@@ -728,7 +728,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 9
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2499,7 +2499,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifes: 3
-  playerMovement: {fileID: 0}
+  isInvunerable: 0
+  isDashing: 0
+  playerMovement: {fileID: 7219569779676662172}
   playerAim: {fileID: 0}
   playerAnimationManager: {fileID: 0}
 --- !u!4 &1069491079704100234
@@ -3640,6 +3642,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 5689808680191670128}
+  isDashing: 0
+  canDash: 1
+  dashSpeed: 15
+  dashDuration: 0.25
+  dashCooldown: 1
 --- !u!4 &7327650192024532955
 Transform:
   m_ObjectHideFlags: 0

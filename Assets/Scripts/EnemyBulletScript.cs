@@ -5,16 +5,18 @@ using UnityEngine;
 
 public class EnemyBulletScript : MonoBehaviour
 {
-
-    private void OnTriggerEnter2D(Collider2D other)
+    
+    private void OnTriggerStay2D(Collider2D other)
     {
         Player player = other.GetComponentInParent<Player>();
         
         //check if is the player
-        if (player != null)
+        if (player != null && !player.isInvunerable)
         {
+       
             player.Die();
             Destroy(gameObject);
         }
     }
+    
 }

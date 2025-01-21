@@ -15,14 +15,16 @@ public class PlayerAim : MonoBehaviour
     [SerializeField]
     private Vector3 gunOffset;
 
+    private Weapon equippedWeapon;
+
     private void Start()
     {
         m_transform = transform.Find("Aim");
-        Weapon waepon = gameObject.GetComponentInChildren<Weapon>();
+        equippedWeapon = PlayerWeaponController.Instance.currentWeapon;
         
-        if (waepon!= null) // If player is carrying a gun, the aiming will be based on it
+        if (equippedWeapon!= null) // If player is carrying a gun, the aiming will be based on it
         { 
-            aimingObject = waepon.gameObject;
+            aimingObject = equippedWeapon.gameObject;
             aimingObject = aimingObject.transform.Find("BulletTransform").gameObject;
         }
         else // if not, the aiming object will be own aim object
@@ -63,11 +65,11 @@ public class PlayerAim : MonoBehaviour
 
     public void HandleShooting()
     {
-        Weapon equippedWeapon = m_transform.GetComponentInChildren<Weapon>();
-        if (m_transform.GetComponentInChildren<Weapon>())
+        
+        if (equippedWeapon != null)
         {
             // Shooting action
-            if(Input.GetMouseButton(0)) equippedWeapon.Shoot();
+            if(Input.GetMouseButtonDown(0)) equippedWeapon.Shoot();
             
             // Reloading action
             if (Input.GetKeyDown(KeyCode.R) && !equippedWeapon.isReloading) StartCoroutine(equippedWeapon.Reload());
@@ -77,6 +79,16 @@ public class PlayerAim : MonoBehaviour
         {
             Debug.Log("Weapon not equipped");
         }
+    }
+
+    public void DisableAim()
+    {
+        m_transform.gameObject.SetActive(false);
+    }
+    
+    public void EnableAim()
+    {
+        m_transform.gameObject.SetActive(true);
     }
 
     /*

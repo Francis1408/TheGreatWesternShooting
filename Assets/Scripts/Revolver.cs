@@ -27,11 +27,6 @@ public class Revolver : Weapon
     // Update is called once per frame
     void Update()
     {
-        // Reloads automatically when ammo reaches zero 
-        if (currentAmmo == 0 && !isReloading)
-        {
-            StartCoroutine(Reload());
-        }
         
         if (!canFire && !isReloading)
         {
@@ -47,59 +42,67 @@ public class Revolver : Weapon
 
     public override void Shoot()
     {
-
-        if (canFire)
+        if (currentAmmo != 0) // If magazine is not empty
         {
-            canFire = false;
-            //muzzleFlashAnimator.SetTrigger("Shoot"); // For futher animation
-            
-            // Decreases ammo
-            currentAmmo--;
-            NotifyCurrentAmmoChange(); // Callback to notify UI's that the currentAmmoHasChanged
-            
-            // Calculate the distance between the bulletTransform and the mousePointer
-           
-            Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Input.mousePosition.z));
-            // Calculate the direction from the bullet transform to the mouse position
-            Vector2 direction = (mouseWorldPosition - bulletTransform.position).normalized;
-            
-            // Calculate the distance between the gun and the mouse
-            float distance = Vector2.Distance(bulletTransform.position, mouseWorldPosition);
-            
-            // Perform the raycast in the calculated direction
-            var hit = Physics2D.Raycast(bulletTransform.position, direction, distance , ignoreLayerMask);
-            
-            if (hit.collider != null)
+            if (canFire)
             {
-                Debug.Log($"Hit {hit.collider.name} at {hit.point}");
-            }
-            else
-            {
-                Debug.Log("Missed");
-            }
-
-            var trail = Instantiate(
-                bulletTrail,
-                bulletTransform.position,
-                Quaternion.FromToRotation(Vector3.up, direction));
-
-            BulletTrail trailScript = trail.GetComponent<BulletTrail>();
-
-            if (hit.collider != null)
-            {
-                trailScript.SetTargetPosition(hit.point);
-                hitManager(hit);
-               
-            }
-            else
-            {
-                Vector3 endPosition = bulletTransform.position +
-                                      (Vector3)direction * Vector3.Distance(mouseWorldPosition ,bulletTransform.position);
+                canFire = false;
+                //muzzleFlashAnimator.SetTrigger("Shoot"); // For futher animation
                 
-                trailScript.SetTargetPosition(endPosition);
-              
+                // Decreases ammo
+                currentAmmo--;
+                NotifyCurrentAmmoChange(); // Callback to notify UI's that the currentAmmoHasChanged
+                
+                // Calculate the distance between the bulletTransform and the mousePointer
+               
+                Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Input.mousePosition.z));
+                // Calculate the direction from the bullet transform to the mouse position
+                Vector2 direction = (mouseWorldPosition - bulletTransform.position).normalized;
+                
+                // Calculate the distance between the gun and the mouse
+                float distance = Vector2.Distance(bulletTransform.position, mouseWorldPosition);
+                
+                // Perform the raycast in the calculated direction
+                var hit = Physics2D.Raycast(bulletTransform.position, direction, distance , ignoreLayerMask);
+                
+                if (hit.collider != null)
+                {
+                    Debug.Log($"Hit {hit.collider.name} at {hit.point}");
+                }
+                else
+                {
+                    Debug.Log("Missed");
+                }
+
+                var trail = Instantiate(
+                    bulletTrail,
+                    bulletTransform.position,
+                    Quaternion.FromToRotation(Vector3.up, direction));
+
+                BulletTrail trailScript = trail.GetComponent<BulletTrail>();
+
+                if (hit.collider != null)
+                {
+                    trailScript.SetTargetPosition(hit.point);
+                    HitManager(hit);
+                   
+                }
+                else
+                {
+                    Vector3 endPosition = bulletTransform.position +
+                                          (Vector3)direction * Vector3.Distance(mouseWorldPosition ,bulletTransform.position);
+                    
+                    trailScript.SetTargetPosition(endPosition);
+                  
+                }
+                
             }
             
+        }
+        else
+        {
+            // Make empty magazine animation
+            Debug.Log("Magazine is empty! Reload");
         }
     }
 
@@ -127,7 +130,7 @@ public class Revolver : Weapon
 
     }
 
-    private void hitManager(RaycastHit2D hit)
+    private void HitManager(RaycastHit2D hit)
     {
         Enemy enemy = hit.transform.GetComponent<Enemy>();
         if (enemy != null)

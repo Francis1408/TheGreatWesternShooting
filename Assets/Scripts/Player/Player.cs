@@ -6,10 +6,13 @@ public class Player : MonoBehaviour
     
     // Attributes 
     
-      public int lifes = 3;
+    public int lifes = 3;
    // private float currentHealth;
-   // public float damage = 10f;
    // public Weapon weapon;
+   
+   // Flags
+    public bool isInvunerable;
+    public bool isDashing;
     
     // Components
     public PlayerMovement playerMovement;
@@ -17,6 +20,18 @@ public class Player : MonoBehaviour
     public PlayerAnimationManager playerAnimationManager;
     
     public static Player Instance { get; private set; }
+    
+    
+    // It subscribes to playerMovement.OnPlayerDashing event 
+    private void OnEnable()
+    {
+        playerMovement.OnPlayerDashing += ManageDashBehaviour;
+    }
+    // It unsubscribes from the currentWeapon.OnAmmoChanged event
+    private void OnDisable()
+    {
+        playerMovement.OnPlayerDashing -= ManageDashBehaviour;
+    }
 
     private void Awake()
     {
@@ -36,14 +51,21 @@ public class Player : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
         playerAim = GetComponent<PlayerAim>();
         playerAnimationManager = GetComponent<PlayerAnimationManager>();
+        
+
+        isInvunerable = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!isDashing)
+        {
+            playerAim.HandleAiming();
+            playerAim.HandleShooting();
+        }
+        
         playerMovement.ProcessInputs();
-        playerAim.HandleAiming();
-        playerAim.HandleShooting();
         
         // Getting data for the animations 
         playerAnimationManager.axisX = playerMovement.GetMoveX();
@@ -53,7 +75,26 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        playerMovement.Move();
+        if (!playerMovement.isDashing)
+        {
+            playerMovement.Move();
+        }
+    }
+
+    private void ManageDashBehaviour(bool isDashing)
+    {
+        if (isDashing)
+        {
+            this.isDashing = true;
+            isInvunerable = true;
+            playerAim.DisableAim(); // Hide the aim sprites
+        }
+        else
+        {
+            this.isDashing = false;
+            isInvunerable = false;
+            playerAim.EnableAim(); // Show the aim sprites
+        }
     }
 
     public Vector3 GetPosition()
@@ -67,4 +108,5 @@ public class Player : MonoBehaviour
         lifes--;
         GameManager.Instance.PlayerOnDeath();
     }
+    
 }
