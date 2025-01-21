@@ -9,6 +9,7 @@ public class WeaponUIManager : MonoBehaviour
     
     public TextMeshProUGUI weaponName;
     public Weapon currentWeapon;
+    public Image currentWeaponImage;
 
     private Transform bulletContainer;
     
@@ -16,7 +17,7 @@ public class WeaponUIManager : MonoBehaviour
     void Start()
     {
         bulletContainer = transform.Find("Panel").transform;
-        InitializeBulletDisplay();
+        InitializeWeaponDisplay();
         currentWeapon.OnAmmoChanged += UpdateBulletDisplay; // Ensure that the class is delegated
     }
     // It subscribes to the currentWeapon.OnAmmoChanged event so that it can
@@ -40,10 +41,16 @@ public class WeaponUIManager : MonoBehaviour
     
     
     // Function to update the bullet display for a new weapon
-    public void InitializeBulletDisplay()
+    public void InitializeWeaponDisplay()
     {
         // Gets the current weapon from the PlayerWeaponController 
         currentWeapon = PlayerWeaponController.Instance.currentWeapon;
+        
+        // Write Weapon Name
+        weaponName.text = currentWeapon.gunName;
+        
+        // Display gun image
+        currentWeaponImage.sprite = currentWeapon.weaponSprite;
         
         // Clear any existing bullets
         foreach (Transform child in bulletContainer)

@@ -992,7 +992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -6.3639526, y: 48.418045}
+  m_AnchoredPosition: {x: 8, y: 48.418045}
   m_SizeDelta: {x: 147.20538, y: 44.9171}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &849675856
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d1f16d761dc9ac3329f7b797651abfa8, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2192,8 +2192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b9c7d6127f3e15ff98cd90b510fd876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponName: {fileID: 0}
+  weaponName: {fileID: 448616257}
   currentWeapon: {fileID: 0}
+  currentWeaponImage: {fileID: 1330985352}
 --- !u!1001 &1833169262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3606,6 +3607,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6487237371554671335, guid: ae534b1e7876a84ab8492f39480e2945, type: 3}
       propertyPath: currentAmmo
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487237371554671335, guid: ae534b1e7876a84ab8492f39480e2945, type: 3}
+      propertyPath: ammoCapacity
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6487237371554671335, guid: ae534b1e7876a84ab8492f39480e2945, type: 3}
