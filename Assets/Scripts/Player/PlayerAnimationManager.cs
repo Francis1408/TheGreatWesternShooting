@@ -85,19 +85,6 @@ public class PlayerAnimationManager : MonoBehaviour
                         ChangeAnimationState(WALKING_RIGHT);
                         break;
                     // Front Right
-                    case <= -60f and > -90f when axisX == 0 && axisY == 0:
-                        ChangeAnimationState(IDLE_FRONT_RIGHT);
-                        break;
-                    case <= -60f and > -90f:
-                        ChangeAnimationState(WALKING_FRONT_LEFT);
-                        break;
-                    // Top Right
-                    case <= 90f and > 60f when axisX == 0 && axisY == 0:
-                        ChangeAnimationState(IDLE_TOP_RIGHT);
-                        break;
-                    case <= 90f and > 60f:
-                        ChangeAnimationState(WALKING_TOP_RIGHT);
-                        break;
                     // Diagonal Right
                     case <= 60f and > 30f when axisX == 0 && axisY == 0:
                         ChangeAnimationState(IDLE_DIAGONAL_RIGHT);
@@ -105,20 +92,26 @@ public class PlayerAnimationManager : MonoBehaviour
                     case <= 60f and > 30f:
                         ChangeAnimationState(WALKING_DIAGONAL_RIGHT);
                         break;
+                    // Top Right
+                    case > 60f when axisX == 0 && axisY == 0:
+                        ChangeAnimationState(IDLE_TOP_RIGHT);
+                        break;
+                    case > 60f:
+                        ChangeAnimationState(WALKING_TOP_RIGHT);
+                        break;
+                    case <= -60f when axisX == 0 && axisY == 0:
+                        ChangeAnimationState(IDLE_FRONT_RIGHT);
+                        break;
+                    case <= -60f:
+                        ChangeAnimationState(WALKING_FRONT_LEFT); // NOMECLATURE IS SWITCHED
+                        break;
                 }
                 break;
             case false:
                 switch (player_angle)
                 {
-                    // Front Left
-                    case <= -90f and > -120f when axisX == 0 && axisY == 0:
-                        ChangeAnimationState(IDLE_FRONT_LEFT);
-                        break;
-                    case <= -90f and > -120f:
-                        ChangeAnimationState(WALKING_FRONT_RIGHT);
-                        break;
-                    case <= -120f and >= -180f:
                     // Left
+                    case <= -120f and >= -180f:
                     case >= 150f and <= 180f:
                     {
                         if (axisX == 0 && axisY == 0)
@@ -140,11 +133,18 @@ public class PlayerAnimationManager : MonoBehaviour
                     case < 150f and > 120f:
                         ChangeAnimationState(WALKING_DIAGONAL_LEFT);
                         break;
+                    // Front Left
+                    case > -120f and < 0 when axisX == 0 && axisY == 0:
+                        ChangeAnimationState(IDLE_FRONT_LEFT);
+                        break;
+                    case > -120f and < 0:
+                        ChangeAnimationState(WALKING_FRONT_RIGHT); // NOMECLATURE IS SWITCHED
+                        break;
                     // Top Left
-                    case <= 120f and > 90f when axisX == 0 && axisY == 0:
+                    case <= 120f and > 0 when axisX == 0 && axisY == 0:
                         ChangeAnimationState(IDLE_TOP_LEFT);
                         break;
-                    case <= 120f and > 90f:
+                    case <= 120f and > 0 :
                         ChangeAnimationState(WALKING_TOP_LEFT);
                         break;
                 }

@@ -16,7 +16,12 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
     private float initial_y_pos;
     private float initial_z_pos;
     private float offset = 0.1f;
+
+    private Rigidbody2D rb;
+    
+    // Aiming Variables
     public float aimAngle;
+    private Vector2 aimDirection;
     
     // Weapon type
     public Weapon weapon;
@@ -39,8 +44,21 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
 
     public void Attack(Enemy enemy)
     {
+        
+        // Gets the aimingDirection 
+        aimDirection = (Player.Instance.GetPosition() - transform.position).normalized;
+        
+        // Angle from the aimDirection
+        aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
+        
         //Handles the Gun position to always aim at the player position
-        HandleAiming();
+        Quaternion rotation = Quaternion.AngleAxis(aimAngle, Vector3.forward);
+
+        m_transform.rotation = rotation;
+        
+        EnemyLookAt(aimAngle);
+        
+     
 
         if (!canFire)
         {
@@ -53,17 +71,19 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
         
         if(canFire && timer > timeBetweenFiring )
         {
-                timer = 0;
+            // ------------------------ IMPLEMENT LATER THE OWN ENEMY BULLET SCRIPT --------------------------
+            timer = 0;
                 canFire = false;
-                Vector2 direction = (Player.Instance.GetPosition() - transform.position).normalized;
+             
                 GameObject bullet = Instantiate(bulletPrefab, bulletTransform.position, Quaternion.identity);
                 
                 // Set bullet rotation based on the direction
-                float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-                bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+                bullet.transform.rotation = Quaternion.Euler(0, 0, aimAngle);
                 
                 Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-                rb.velocity = direction * bulletSpeed;
+                rb.velocity = aimDirection * bulletSpeed;
+                
+            // ------------------------ IMPLEMENT LATER THE OWN ENEMY BULLET SCRIPT --------------------------
         }
     }
 
@@ -74,21 +94,6 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
     }
 
     // Applies transformation to the Weapon based on the player location
-    private void HandleAiming()
-    {
-        // Gets the direction between the aiming and 
-        Vector2 aimDirection = Player.Instance.transform.position - m_transform.position;
-        
-        // Angle from the aimDirection
-        aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
-        
-        Quaternion rotation = Quaternion.AngleAxis(aimAngle, Vector3.forward);
-
-        m_transform.rotation = rotation;
-        
-        EnemyLookAt(aimAngle);
-        
-    }
     
     //  Manages weapon flipping from one hand to another
     private void EnemyLookAt(float weaponAngle)

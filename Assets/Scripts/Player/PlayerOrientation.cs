@@ -12,6 +12,8 @@ public class PlayerOrientation : MonoBehaviour
 
     public Weapon weapon;
     private float offset = 0.55f;
+
+    public bool isInBuffer;
     
     private float bufferAngle = 20f;
     private float initial_x_pos;
