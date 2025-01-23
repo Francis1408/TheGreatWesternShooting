@@ -8,7 +8,7 @@ public class Revolver : Weapon
     private float timer;
     public Transform bulletTransform;
     public GameObject bulletTrail;
-    public Animator muzzleFlashAnimator;
+    public Animator gunAnimator;
 
     public LayerMask ignoreLayerMask;
 
@@ -47,7 +47,7 @@ public class Revolver : Weapon
             if (canFire)
             {
                 canFire = false;
-                //muzzleFlashAnimator.SetTrigger("Shoot"); // For futher animation
+                gunAnimator.SetTrigger("Shoot"); // For futher animation
                 
                 // Decreases ammo
                 currentAmmo--;
