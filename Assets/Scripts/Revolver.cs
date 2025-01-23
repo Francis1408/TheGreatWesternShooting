@@ -47,7 +47,9 @@ public class Revolver : Weapon
             if (canFire)
             {
                 canFire = false;
-                gunAnimator.SetTrigger("Shoot"); // For futher animation
+                gunAnimator.SetTrigger("Shoot"); // Plays the revolver shootanimation
+                
+                CameraShake.Instance.ShakeCamera(3f, .1f); // Shakes the camera 
                 
                 // Decreases ammo
                 currentAmmo--;

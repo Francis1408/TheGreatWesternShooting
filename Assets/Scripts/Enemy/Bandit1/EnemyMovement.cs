@@ -10,7 +10,6 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
     private Rigidbody2D rb;
     
     private Vector3 roamPosition;
-    private float bufferAngle = 20f;
     public float reachedPositionDistance = 2f;
     public float stopRoamingDistance = 12f;
     public float targetRange = 10f;

@@ -8,7 +8,6 @@ public class PlayerAim : MonoBehaviour
 
     private Transform m_transform;
     private GameObject aimingObject;
-    private float maxMouseDistance = 5.0f;
     public float angle;
     private PlayerOrientation playerOrientation;
     
