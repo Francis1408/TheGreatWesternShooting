@@ -28,6 +28,10 @@ public class Revolver : Weapon
     void Update()
     {
         
+        if(Input.GetMouseButtonDown(0)) Shoot(); // Handles shooting
+        
+        if (Input.GetKeyDown(KeyCode.R) && !isReloading) StartCoroutine(Reload()); // Handles reloading
+        
         if (!canFire && !isReloading)
         {
             timer += Time.deltaTime;

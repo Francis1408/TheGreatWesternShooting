@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,11 +30,12 @@ public abstract class Weapon : MonoBehaviour
     public float reloadTime;
     public float coolDownTime;
     public float damage;
+    
 
     [Header("Weapon Universal Flags")] public bool isReloading;
     public bool canFire;
 
-
+    
     public abstract void Shoot();
     
     //Reload function
@@ -46,5 +48,5 @@ public abstract class Weapon : MonoBehaviour
     {
         OnAmmoChanged?.Invoke(currentAmmo);
     }
-
+    
 }

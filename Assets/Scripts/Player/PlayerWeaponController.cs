@@ -11,6 +11,7 @@ public class PlayerWeaponController : MonoBehaviour
     
     public Weapon currentWeapon;
     public List<Weapon> weaponsOwned;
+    public int currentIndex;
     
     
     private void Awake()
@@ -29,9 +30,71 @@ public class PlayerWeaponController : MonoBehaviour
 
     private void Start()
     {
-        currentWeapon = GetComponentInChildren<Weapon>();
+        // Disable all weapons
+        foreach (Weapon weapon in GetComponentsInChildren<Weapon>())
+        {
+            weaponsOwned.Add(weapon);
+            weapon.gameObject.SetActive(false);
+            weapon.enabled = false;
+        }
+        
+        // Set current index to 0 and enable first weapon in the list
+        currentIndex = 0;
+        currentWeapon = weaponsOwned[0];
+        currentWeapon.gameObject.SetActive(true);
+        currentWeapon.enabled = true;
     }
 
+    public void SwitchWeapon()
+    {
+        for (int i = 0; i < weaponsOwned.Count; i++) // Disable all the weapons unused 
+        {
+            if (i != currentIndex)
+            {
+                weaponsOwned[i].gameObject.SetActive(false);
+                weaponsOwned[i].enabled = false;
+            }
+        }
+        // Enable the current weapon
+        currentWeapon = weaponsOwned[currentIndex];
+        currentWeapon.gameObject.SetActive(true);
+        currentWeapon.enabled = true;
+        
+        // Update the weapon display 
+        WeaponUIManager.Instance.InitializeWeaponDisplay();
+    }
+
+    private void Update()
+    {
+        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f)  // ScrollUp
+        {
+            if (currentIndex + 1 > weaponsOwned.Count - 1)
+            {
+                currentIndex = 0;
+            }
+            else
+            {
+                currentIndex++;
+            }
+            SwitchWeapon();
+        }
+
+        if (Input.GetAxisRaw("Mouse ScrollWheel") < 0f) // ScrollDown
+        {
+            if (currentIndex <= 0)
+            {
+                currentIndex =  weaponsOwned.Count - 1;
+            }
+            else
+            {
+                currentIndex--;
+            }
+            SwitchWeapon();
+        } 
+    }
+}
+    
+        
 
     /*
     public void EquipWeapon(Weapon newWeapon)
@@ -47,4 +110,4 @@ public class PlayerWeaponController : MonoBehaviour
     */
     
     
-}
+

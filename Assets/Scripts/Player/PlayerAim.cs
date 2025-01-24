@@ -54,19 +54,6 @@ public class PlayerAim : MonoBehaviour
     public void HandleShooting()
     {
         
-        if (equippedWeapon != null)
-        {
-            // Shooting action
-            if(Input.GetMouseButtonDown(0)) equippedWeapon.Shoot();
-            
-            // Reloading action
-            if (Input.GetKeyDown(KeyCode.R) && !equippedWeapon.isReloading) StartCoroutine(equippedWeapon.Reload());
-
-        }
-        else
-        {
-            Debug.Log("Weapon not equipped");
-        }
     }
 
     public void DisableAim()
