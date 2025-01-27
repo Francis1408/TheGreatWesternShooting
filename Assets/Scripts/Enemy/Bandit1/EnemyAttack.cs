@@ -27,7 +27,7 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
     public Weapon weapon;
     
     public GameObject bulletPrefab;
-    public float bulletSpeed = 5f; // Speed of the bullet
+    public float bulletSpeed = 10f; // Speed of the bullet
     public float timer;
     public bool canFire;
     public float timeBetweenFiring;

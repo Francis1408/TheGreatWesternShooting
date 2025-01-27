@@ -11,10 +11,14 @@ public class WeaponUIManager : MonoBehaviour
     public static WeaponUIManager Instance { get; private set; }
     
     public TextMeshProUGUI weaponName;
+    public TextMeshProUGUI weaponTotalAmmo;
     public Weapon currentWeapon;
     public Image currentWeaponImage;
+    public GameObject weaponPanel;
 
+    private Transform panelContainer;
     private Transform bulletContainer;
+    
     private void Awake()
     {
         // Ensure there is only one instance of the WeaponController
@@ -32,14 +36,18 @@ public class WeaponUIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bulletContainer = transform.Find("Panel").transform;
-        InitializeWeaponDisplay();
+        panelContainer = transform.Find("PanelList").transform;
         
         // ---------- TEMPORARILY LOGIC --- LATER MAKE A UNIQUE ACQUIRE WEAPON 
-        foreach (Weapon weapon in PlayerWeaponController.Instance.weaponsOwned)
+        for (int i = 0; i < PlayerWeaponController.Instance.weaponsOwned.Count; i++)
         {
-            weapon.OnAmmoChanged += UpdateBulletDisplay; // Ensure that the class is delegated
+            PlayerWeaponController.Instance.weaponsOwned[i].OnAmmoChanged += UpdateBulletDisplay; // Register all weapon Listeners
+            RegisterBulletsSprites(i, PlayerWeaponController.Instance.weaponsOwned[i]); // Create panel for all owned weapons
+            
         }
+        
+        InitializeWeaponDisplay();
+     
     }
     // It subscribes to the currentWeapon.OnAmmoChanged event so that it can
     // update the UI when the ammo count changes.
@@ -61,13 +69,11 @@ public class WeaponUIManager : MonoBehaviour
     }
     
     
-    // Function to update the bullet display for a new weapon
+    // Function to update the bullet display for a new selected weapon
     public void InitializeWeaponDisplay()
     {
         // Gets the current weapon from the PlayerWeaponController 
         currentWeapon = PlayerWeaponController.Instance.currentWeapon;
-        
-        Debug.Log(currentWeapon);
         
         // Write Weapon Name
         weaponName.text = currentWeapon.gunName;
@@ -75,43 +81,49 @@ public class WeaponUIManager : MonoBehaviour
         // Display gun image
         currentWeaponImage.sprite = currentWeapon.weaponSprite;
         
-        // Clear any existing bullets
-        foreach (Transform child in bulletContainer)
-        {
-            Destroy(child.gameObject);
-        }
-        
-        Debug.Log("Child count segundo" +bulletContainer.childCount);
+        // Write the amount of total ammo
+        weaponTotalAmmo.text = currentWeapon.totalAmmo < 0 ? "\u221E" : currentWeapon.totalAmmo.ToString(); // Check if gu  has infinity ammo
 
-        // Create bullets based on maxBullets
-        for (int i = 0; i < currentWeapon.ammoCapacity; i++)
+        // Enable/Disable bullet panels
+        for (int i = 0; i < PlayerWeaponController.Instance.weaponsOwned.Count; i++)
         {
-            Instantiate(currentWeapon.weaponAmmoSprite, bulletContainer);
+            Transform selectedPanel = panelContainer.transform.GetChild(i);
+            if (i != PlayerWeaponController.Instance.currentIndex)
+            {
+                selectedPanel.gameObject.SetActive(false);
+            }
+            else
+            {
+                selectedPanel.gameObject.SetActive(true);
+            }
         }
-        
-        Debug.Log(currentWeapon.currentAmmo);
-        // Update the display to reflect the current ammo count
-        UpdateBulletDisplay(currentWeapon.currentAmmo);
     }
-
+    
     private void UpdateBulletDisplay(int currentBullets)
     {
-        StartCoroutine(InitializeBulletsAfterClear(currentBullets));
-    }
-    private IEnumerator InitializeBulletsAfterClear(int currentBullets)
-    {
-        yield return null;
-        Debug.Log("Child count segundo" +bulletContainer.childCount);
+        // Update the total ammo
+        weaponTotalAmmo.text = currentWeapon.totalAmmo < 0 ? "\u221E" : currentWeapon.totalAmmo.ToString(); // Check if gu  has infinity ammo
+        
+        Transform selectedPanel = panelContainer.transform.GetChild(PlayerWeaponController.Instance.currentIndex);
         
         // Enable/disable bullets based on the current ammo count
         for (int i = 0; i < currentWeapon.ammoCapacity; i++)
         {
             Debug.Log(i < currentBullets);
-            bulletContainer.GetChild(i).GetComponent<Image>().enabled = i < currentBullets;
+            selectedPanel.GetChild(i).GetComponent<Image>().enabled = i < currentBullets;
         }
     }
     
-    
+    // Method called once to instantiate the amount of bullets in the weapon panel
+    private void RegisterBulletsSprites(int index, Weapon weapon) {
+        
+        Instantiate(weaponPanel, panelContainer);
+        Transform selectedPanel = panelContainer.transform.GetChild(index);
+        for (int i = 0; i < weapon.ammoCapacity; i++)
+        {
+            Instantiate(weapon.weaponAmmoSprite, selectedPanel);
+        }
+    }
 
     // Update is called once per frame
     void Update()

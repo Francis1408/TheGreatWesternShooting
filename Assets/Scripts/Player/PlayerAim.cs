@@ -10,8 +10,6 @@ public class PlayerAim : MonoBehaviour
     private GameObject aimingObject;
     public float angle;
     private PlayerOrientation playerOrientation;
-    
-    public float minMouseDistance = 1.0f; // Minimum radius from the player
 
     
     [SerializeField]

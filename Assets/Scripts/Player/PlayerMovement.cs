@@ -29,8 +29,9 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection = new Vector2(moveX, moveY).normalized;
 
-        // Ensures that the dash is only enabled if the player is in momentum
-        if (Input.GetMouseButtonDown(1) && moveDirection.magnitude > 0 && canDash)
+        // Ensures that the dash is only enabled if the player is in momentum and not reloading
+        if (Input.GetMouseButtonDown(1) && moveDirection.magnitude > 0 && canDash 
+            && !PlayerWeaponController.Instance.currentWeapon.isReloading)
         {
             StartCoroutine(Dash());
         }

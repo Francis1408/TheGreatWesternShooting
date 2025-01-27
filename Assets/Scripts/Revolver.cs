@@ -21,6 +21,7 @@ public class Revolver : Weapon
         
         // Starts loaded 
         currentAmmo = ammoCapacity;
+        totalAmmo = -1;
     }
 
 
@@ -30,7 +31,8 @@ public class Revolver : Weapon
         
         if(Input.GetMouseButtonDown(0)) Shoot(); // Handles shooting
         
-        if (Input.GetKeyDown(KeyCode.R) && !isReloading) StartCoroutine(Reload()); // Handles reloading
+        // Cant reload while dashing 
+        if (Input.GetKeyDown(KeyCode.R) && !isReloading && !Player.Instance.isDashing) StartCoroutine(Reload()); // Handles reloading
         
         if (!canFire && !isReloading)
         {

@@ -14,8 +14,7 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
     public float stopRoamingDistance = 12f;
     public float targetRange = 10f;
     
-    public float enemyAngle;
-    public bool isRightHanded = true;
+   
     public bool isMoving = true;
 
     private enum State
@@ -103,6 +102,7 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
     
     
     // Draw Gizmos in the scene to visualize the distances
+    /*
     private void OnDrawGizmosSelected()
     {
         // Draw a red sphere to represent the reachedPositionDistance
@@ -156,5 +156,7 @@ public class EnemyMovement : MonoBehaviour, IEnemyMovement
             Gizmos.DrawLine(origin, origin + point);
         }
     }
+    
+    */
 
 }

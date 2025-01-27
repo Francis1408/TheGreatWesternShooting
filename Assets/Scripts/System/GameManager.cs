@@ -34,11 +34,7 @@ public class GameManager : MonoBehaviour
         }
         gameOverText.gameObject.SetActive(false);
     }
-
-    private void Update()
-    {
-        scoreText.text = currentScore.ToString();
-    }
+    
 
     // Method to add points to the score when an enemy is killed
     public void AddPoints(int points)
@@ -46,13 +42,14 @@ public class GameManager : MonoBehaviour
         if (!isGameOver)
         {
             currentScore += points;
+            scoreText.text = currentScore.ToString();
             //update UI with the score
             scoreText.text = currentScore.ToString();
         }
     }
 
     // Method to call when the game ends (e.g., player dies, or all enemies are killed)
-    public void EndGame()
+    private void EndGame()
     {
         isGameOver = true;
         gameOverText.gameObject.SetActive(true);

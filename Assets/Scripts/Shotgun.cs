@@ -14,6 +14,7 @@ public class Shotgun : Weapon
         
         // Starts loaded 
         currentAmmo = ammoCapacity;
+        totalAmmo = 3;
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class Shotgun : Weapon
         
         if(Input.GetMouseButtonDown(0)) Shoot(); // Handles shooting
         
-        if (Input.GetKeyDown(KeyCode.R) && !isReloading) StartCoroutine(Reload()); // Handles reloading
+        if (Input.GetKeyDown(KeyCode.R) && !isReloading && !Player.Instance.isDashing) StartCoroutine(Reload()); // Handles reloading
         
         if (!canFire && !isReloading)
         {
@@ -70,6 +71,12 @@ public class Shotgun : Weapon
             Debug.Log("Ammo full no need to reload");
             yield break;
         }
+
+        if (totalAmmo <= 0)
+        {
+            Debug.Log("No ammo left");
+            yield break;
+        } 
         
         // Makes the reload action
         canFire = false; // Interrupts firing 
@@ -79,7 +86,17 @@ public class Shotgun : Weapon
         
         // Reload complete
         Debug.Log("Reload Complete");
-        currentAmmo = ammoCapacity;
+        if (totalAmmo / ammoCapacity >= 1) // Enough ammo for a full cartridge 
+        {
+            currentAmmo = ammoCapacity;
+            totalAmmo -= ammoCapacity;
+
+        }
+        else // Reload with what is left 
+        {
+            currentAmmo = totalAmmo % ammoCapacity;
+            totalAmmo = 0;
+        }
         NotifyCurrentAmmoChange(); // Callback to notify UI's that the currentAmmoHasChanged
         isReloading = false;
         canFire = true; // Can fire immediately after the reload

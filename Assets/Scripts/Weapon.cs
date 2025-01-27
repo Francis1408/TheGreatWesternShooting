@@ -26,6 +26,7 @@ public abstract class Weapon : MonoBehaviour
     
     public int ammoCapacity;
     public int currentAmmo;
+    public int totalAmmo;
     
     public float reloadTime;
     public float coolDownTime;

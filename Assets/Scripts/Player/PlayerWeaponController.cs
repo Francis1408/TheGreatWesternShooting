@@ -66,7 +66,7 @@ public class PlayerWeaponController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f)  // ScrollUp
+        if (Input.GetAxisRaw("Mouse ScrollWheel") > 0f && !currentWeapon.isReloading)  // ScrollUp
         {
             if (currentIndex + 1 > weaponsOwned.Count - 1)
             {
@@ -79,7 +79,7 @@ public class PlayerWeaponController : MonoBehaviour
             SwitchWeapon();
         }
 
-        if (Input.GetAxisRaw("Mouse ScrollWheel") < 0f) // ScrollDown
+        if (Input.GetAxisRaw("Mouse ScrollWheel") < 0f && !currentWeapon.isReloading) // ScrollDown
         {
             if (currentIndex <= 0)
             {
