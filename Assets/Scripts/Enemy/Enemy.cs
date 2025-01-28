@@ -16,13 +16,16 @@ public class Enemy : MonoBehaviour
     public bool alive = true;
 
     // Movement behavior placeholder
-    public IEnemyMovement movementBehavior;
+    private IEnemyMovement movementBehavior;
     
     // Attack behavior placeholder
-    public IEnemyAttack attackBehavior;
+    private IEnemyAttack attackBehavior;
     
     // Animation behavior placeholder
-    public IEnemyAnimation animationBehaviour;
+    private IEnemyAnimation animationBehaviour;
+    
+    // Enemy Hitbox
+    private BoxCollider2D enemyBoxCollider;
 
     // Start is called before the first frame update
     protected virtual void Start()
@@ -31,6 +34,8 @@ public class Enemy : MonoBehaviour
         movementBehavior = GetComponent<IEnemyMovement>();
         attackBehavior = GetComponent<IEnemyAttack>();
         animationBehaviour = GetComponent<IEnemyAnimation>();
+        enemyBoxCollider = GetComponent<BoxCollider2D>();
+
 
         // Custom initialization for health, damage, etc. can be done here
     }
@@ -39,11 +44,8 @@ public class Enemy : MonoBehaviour
     protected virtual void Update()
     {
         // Handle movement
-        if (movementBehavior != null)
-        {
-            movementBehavior.Move(this);
-        }
-        
+        movementBehavior?.Move(this);
+
         // Handle attack
         if (attackBehavior != null && health > 0)
         {
@@ -62,11 +64,9 @@ public class Enemy : MonoBehaviour
     {
         health -= damageAmount;
 
-        if (health <= 0 && alive)
-        {
-            alive = false;
-            Die();
-        }
+        if (!(health <= 0) || !alive) return;
+        alive = false;
+        Die();
     }
 
     // When the enemy dies
@@ -94,6 +94,8 @@ public class Enemy : MonoBehaviour
         animationBehaviour.HandleDeathAnimation();
         // Stop enemy attack
         attackBehavior.Halt();
+        // Disable hitbox
+        enemyBoxCollider.enabled = false;
         // Wait for the predefined despawn time
         yield return new WaitForSeconds(despawnTime);
 

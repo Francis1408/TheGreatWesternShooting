@@ -23,6 +23,7 @@ public class EnemyAttack : MonoBehaviour, IEnemyAttack
     public float aimAngle;
     private Vector2 aimDirection;
     
+    
     // Weapon type
     public Weapon weapon;
     

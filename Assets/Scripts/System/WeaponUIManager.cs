@@ -109,7 +109,6 @@ public class WeaponUIManager : MonoBehaviour
         // Enable/disable bullets based on the current ammo count
         for (int i = 0; i < currentWeapon.ammoCapacity; i++)
         {
-            Debug.Log(i < currentBullets);
             selectedPanel.GetChild(i).GetComponent<Image>().enabled = i < currentBullets;
         }
     }

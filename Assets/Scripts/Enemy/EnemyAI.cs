@@ -13,12 +13,6 @@ public class EnemyAI : MonoBehaviour
         roamPosition = GetRoamingPosition();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private Vector3 GetRoamingPosition() {
         return startingPosition + GetRandomDir() * Random.Range(10f, 70f);
     } 

@@ -62,7 +62,6 @@ public class Player : MonoBehaviour
         if (!isDashing)
         {
             playerAim.HandleAiming();
-            playerAim.HandleShooting();
         }
         
         playerMovement.ProcessInputs();

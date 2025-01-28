@@ -34,9 +34,12 @@ public class PlayerAim : MonoBehaviour
         // Get direction between mouse and player
         Vector2 direction = (mousePos - transform.position).normalized;
         
+       // float angleGun = Mathf.Atan2(directionGun.y, directionGun.x) * Mathf.Rad2Deg;
         
         // angle between mouse and player
         angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        
+        //Debug.Log("Angle player: " + angle + "Gun angle: " + angleGun);
         
         
         playerOrientation.PlayerLookAt(angle);
@@ -48,11 +51,7 @@ public class PlayerAim : MonoBehaviour
       
         
     }
-
-    public void HandleShooting()
-    {
-        
-    }
+    
 
     public void DisableAim()
     {
